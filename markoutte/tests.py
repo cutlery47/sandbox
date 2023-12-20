@@ -2,10 +2,10 @@ import random
 import time
 import csv
 
-from markoutte.algs.RK import RKSearch
-from markoutte.algs.naive import naiveSearch
-from markoutte.algs.BM import BMSearch
-from markoutte.algs.KMP import KMPSearch
+from algs.naive import naiveSearch
+from algs.RK import RKSearch
+from algs.BM import BMSearch
+from algs.KMP import KMPSearch
 
 def onlineAverage(avg: float, val: int, n: int) -> float:
     new_avg = avg + (val - avg) / n
@@ -19,8 +19,6 @@ class Test:
         self.dna_output = 'outputs/dna.csv'
         self.alice_input = 'inputs/alice.txt'
         self.alice_output = 'outputs/alice.csv'
-        self.fallout_input = 'inputs/dialogues.txt'
-        self.fallout_output = 'outputs/dialogues.csv'
 
     def runTest(self, text, pat_len, text_len, runs, variable):
         print(variable)
@@ -109,7 +107,7 @@ class Test:
         writer.writerow(['len', 'naive', 'RK', 'BM', 'KMP', 'python'])
 
         for pat_len in range(1, 1000):
-            res = self.runTest(text, pat_len, len(text), 1000, pat_len)
+            res = self.runTest(text, pat_len, len(text), 10000, pat_len)
             writer.writerow([pat_len, res[0], res[1], res[2], res[3], res[4]])
 
     def aliceVarPatternTest(self):
@@ -123,26 +121,26 @@ class Test:
         writer.writerow(['len', 'naive', 'RK', 'BM', 'KMP', 'python'])
 
         for pat_len in range(1, 1000):
-            res = self.runTest(text, pat_len, len(text), 100, pat_len)
+            res = self.runTest(text, pat_len, len(text), 1000, pat_len)
             writer.writerow([pat_len, res[0], res[1], res[2], res[3], res[4]])
 
-    def dialoguesVarPatternTest(self):
-        r = open(self.fallout_input, 'r')
-        w = open(self.fallout_output, 'w')
-
-        text = r.read()
-        writer = csv.writer(w)
-
-        # inserting a header in order to identify each algorithm's performance
-        writer.writerow(['len', 'naive', 'RK', 'BM', 'KMP', 'python'])
-
-        for pat_len in range(1, 1000):
-            res = self.runTest(text, pat_len, len(text), 100, pat_len)
-            writer.writerow([pat_len, res[0], res[1], res[2], res[3], res[4]])
+    # def dialoguesVarPatternTest(self):
+    #     r = open(self.fallout_input, 'r')
+    #     w = open(self.fallout_output, 'w')
+    #
+    #     text = r.read()
+    #     writer = csv.writer(w)
+    #
+    #     # inserting a header in order to identify each algorithm's performance
+    #     writer.writerow(['len', 'naive', 'RK', 'BM', 'KMP', 'python'])
+    #
+    #     for pat_len in range(1, 1000):
+    #         res = self.runTest(text, pat_len, len(text), 1000, pat_len)
+    #         writer.writerow([pat_len, res[0], res[1], res[2], res[3], res[4]])
 
     def loremVarTextTest(self):
         r = open('inputs/lorem.txt', 'r')
-        w = open('outputs/lorem_2.csv', 'w')
+        w = open('outputs/lorem_10.csv', 'w')
 
         text = r.read()
         writer = csv.writer(w)
@@ -195,7 +193,7 @@ class Test:
         pat_lens = [10, 256, 1000]
         for pat_len in pat_lens:
             for text_len in range(pat_len + 1, 5000 + pat_len):
-                res = self.runTest(text, pat_len, text_len, 1000, text_len)
+                res = self.runTest(text, pat_len, text_len, 10000, text_len)
                 writer.writerow([pat_len, text_len, res[0], res[1], res[2], res[3], res[4]])
 
 

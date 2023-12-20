@@ -1,4 +1,4 @@
-from markoutte.algs.naive import equals
+from naive import equals
 
 def pseudoRollingHash(string: str, start: int, finish: int) -> int:
     result = 0

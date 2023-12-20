@@ -1,0 +1,3980 @@
+{{Dialogue Transcript|Mr. House|(computer)}}
+== Topics ==
+{|class="ace-table ace-table-full "
+
+! TOPIC
+! TOPIC TEXT / PROMPT
+! EMOTION
+! RESPONSE TEXT
+! #
+
+|-
+|rowspan="109" |{{linkable|GREETING}}
+|rowspan="6" |GREETING
+|Neutral 50
+|I knew you'd make it. Resourceful, as always.<!--{{Inline quote|sound=CreatureUniqueMrHouse VHDHouseBattle_GREETING_001554D8_1.ogg}}-->
+|{{linkable|1}}
+
+|-
+|Neutral 50
+|The override module is functioning properly. I'm rerouting power to the Securitron vault at the Fort as we speak...<!--{{Inline quote|sound=CreatureUniqueMrHouse VHDHouseBattle_GREETING_001554D8_2.ogg}}-->
+|{{linkable|2}}
+
+|-
+|Neutral 50
+|I just need you to head over to the east power plant and manually activate the switch.<!--{{Inline quote|sound=CreatureUniqueMrHouse VHDHouseBattle_GREETING_001554D8_6.ogg}}-->
+|{{linkable|3}}
+
+|-
+|Neutral 50
+|When you return topside, I think you'll see that my Securitron army is a little more than the Legion was prepared to handle.<!--{{Inline quote|sound=CreatureUniqueMrHouse VHDHouseBattle_GREETING_001554D8_3.ogg}}-->
+|{{linkable|4}}
+
+|-
+|Neutral 50
+|Oh, and before you go - grab that print-out spooling from the console here - those papers set the terms for the NCR's unconditional surrender.<!--{{Inline quote|sound=CreatureUniqueMrHouse VHDHouseBattle_GREETING_001554D8_4.ogg}}-->
+|{{linkable|5}}
+
+|-
+|Neutral 50
+|I thought you might enjoy the honor of presenting them to the NCR's commanding officer, once the Legion has been defeated. Cheers!<!--{{Inline quote|sound=CreatureUniqueMrHouse VHDHouseBattle_GREETING_001554D8_5.ogg}}-->
+|{{linkable|6}}
+
+|-
+|GREETING
+|Neutral 50
+|''{FIRST, BUNKER, BENNY FLED}'' I do wish you'd come and met with me at the Lucky 38 when you first arrived on the Strip. Or after Benny fled, even.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B665_1.ogg}}-->
+|{{linkable|7}}
+
+|-
+|GREETING
+|Neutral 50
+|''{FIRST, BUNKER, BENNY DEAD CASINO}'' I do wish you'd come and met with me at the Lucky 38 when you first arrived on the Strip. Or after you killed Benny, even.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B666_1.ogg}}-->
+|{{linkable|8}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{FIRST, BUNKER}'' Quite an honor you spurned, my invite. You would be the first person to set foot inside the Lucky 38 in over 200 years.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B667_2.ogg}}-->
+|{{linkable|9}}
+
+|-
+|Neutral 50
+|''{sigh of pique}'' But... you still wound up here, right where I wanted you. ''{self-satisfied}'' I knew I could rely on Caesar to return the Platinum Chip to you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B667_3.ogg}}-->
+|{{linkable|10}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{LATER, BUNKER}'' Well! You're here ahead of schedule! I suppose it's just as well...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B668_1.ogg}}-->
+|{{linkable|11}}
+
+|-
+|Neutral 50
+|This is where I wanted you to end up, after all. ''{self-congratulating}'' I knew I could rely on Caesar to give you back the Platinum Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B668_2.ogg}}-->
+|{{linkable|12}}
+
+|-
+|GREETING
+|Neutral 50
+|''{LATER, BUNKER, MISSION}'' I see that you reached your destination safely. Shall we get to work?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B669_1.ogg}}-->
+|{{linkable|13}}
+
+|-
+|GREETING
+|Neutral 50
+|''{BUNKER}'' Have you come to your senses? It's not too late to upload the Platinum Chip's data to the primary computer.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014D2D0_1.ogg}}-->
+|{{linkable|14}}
+
+|-
+|GREETING
+|Neutral 50
+|''{BUNKER}'' Stop wasting time. Go upload the data on the Platinum Chip to the facility's primary computer.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66A_1.ogg}}-->
+|{{linkable|15}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{BUNKER}'' As you know, the Platinum Chip upgrades my Securitrons' operating software. Well... there's an army of them here.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66B_1.ogg}}-->
+|{{linkable|16}}
+
+|-
+|Neutral 50
+|The Securitrons policing the Strip are a fraction of the total number manufactured. The rest, I stored here.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66B_2.ogg}}-->
+|{{linkable|17}}
+
+|-
+|GREETING
+|Neutral 50
+|''{BUNKER}'' The Platinum Chip is a data-storage device.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66C_1.ogg}}-->
+|{{linkable|18}}
+
+|-
+|rowspan="3" |GREETING
+|Neutral 50
+|I need you to manually upload the data from the Chip to the facility's primary computer. There's a terminal at the other end of this facility.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66D_2.ogg}}-->
+|{{linkable|19}}
+
+|-
+|Neutral 50
+|There's a complication. While I can broadcast to this screen, I can't control any of the facility's systems.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66D_3.ogg}}-->
+|{{linkable|20}}
+
+|-
+|Neutral 50
+|That means I can't deactivate its security bots... most of which appear to be active, according to the status board I'm looking at.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66D_4.ogg}}-->
+|{{linkable|21}}
+
+|-
+|rowspan="3" |GREETING
+|Neutral 50
+|''{BUNKER, FORT SECS DEST}'' ''{devastated}'' Do you have the slightest idea of what you've done, of what you've destroyed?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66E_1.ogg}}-->
+|{{linkable|22}}
+
+|-
+|Neutral 50
+|You've doomed Vegas to be ruled by corrupt bureaucrats or fanatical savages.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66E_2.ogg}}-->
+|{{linkable|23}}
+
+|-
+|Neutral 50
+|Singlehandedly, you've brought mankind's best hopes of forward progress crashing down. No punishment would be too severe.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66E_3.ogg}}-->
+|{{linkable|24}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{BUNKER}'' Your work here is done. Return to the Lucky 38 so we can discuss next steps.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66F_1.ogg}}-->
+|{{linkable|25}}
+
+|-
+|Neutral 50
+|You have a very bright future ahead of you. Thanks to your actions today, so does the rest of mankind.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B66F_2.ogg}}-->
+|{{linkable|26}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{PLAYER DIDN'T GET CHIP}'' ''{Should be Securitron on the Strip}'' Benny is dead, and yet you don't appear to be carrying the Platinum Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADC_1.ogg}}-->
+|{{linkable|27}}
+
+|-
+|Neutral 50
+|I don't suppose you forgot to search his body?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADC_2.ogg}}-->
+|{{linkable|28}}
+
+|-
+|GREETING
+|Neutral 50
+|''{LOST CHIP}'' Before we go any further - where is the Platinum Chip?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B670_1.ogg}}-->
+|{{linkable|29}}
+
+|-
+|GREETING
+|Neutral 50
+|''{FIRST, HAS CHIP, FORT SECS UP}'' ''{spoke to player at the Fort bunker first}'' So, we meet in person finally... so to speak. You did well at the Fort - kudos.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B671_1.ogg}}-->
+|{{linkable|30}}
+
+|-
+|GREETING
+|Neutral 50
+|''{HAD CHIP, REFUSED, RETURNED}'' Have you come to your senses - or will there be a repeat of the last incident?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F25_1.ogg}}-->
+|{{linkable|31}}
+
+|-
+|rowspan="3" |GREETING
+|Neutral 50
+|''{FIRST, HAS CHIP, BENNY DEAD TOPS}'' You've been a busy courier, haven't you? You take your obligation to deliver an package very seriously - an ethic for which I am grateful.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB3_1.ogg}}-->
+|{{linkable|32}}
+
+|-
+|Neutral 50
+|I will admit, when you ignored my invitation, I predicted... negative outcomes. But - you have a way of exceeding expectations, don't you?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB3_2.ogg}}-->
+|{{linkable|33}}
+
+|-
+|Neutral 50
+|Well enough. Let's have the Chip, then.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB3_3.ogg}}-->
+|{{linkable|34}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{FIRST, NO TOPS}'' ''{even tones, welcoming the player but appraising, too}'' This meeting has been a long time coming, hasn't it? You've come a long ways, literally and, I suspect, figuratively as well.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00116B50_1.ogg}}-->
+|{{linkable|35}}
+
+|-
+|Neutral 50
+|''{proud of the Vegas you built}'' I have to ask - now that you've reached your destination, what do you make of what you see?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00116B50_2.ogg}}-->
+|{{linkable|36}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{FIRST, BENNY FLED}'' The point of my inviting you to visit me here at the Lucky 38 ''{emphasis}'' before stomping into the Tops on your own was to help you prepare - tactically.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADD_1.ogg}}-->
+|{{linkable|37}}
+
+|-
+|Neutral 50
+|Now, because of your carelessness, Benny has fled the Strip, taking with him the Platinum Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADD_2.ogg}}-->
+|{{linkable|38}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{FIRST DISCUSS, PLAYER VISITED TOPS}'' ''{welcoming player, trying to hide irritation}'' Well... this meeting has been a long time in coming... longer still, since you took time to ''{disapproving}'' charge into the Tops before coming to see me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118A19_1.ogg}}-->
+|{{linkable|39}}
+
+|-
+|Neutral 50
+|''{putting aside irritation}'' Before we get down to details, I must ask - now that you've arrived at your destination, what do you make of what you see?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118A19_2.ogg}}-->
+|{{linkable|40}}
+
+|-
+|GREETING
+|Neutral 50
+|''{NO TERMS, NO TOPS}'' ''{player walked away without accepting terms last time}'' Can I look forward to a more ''{beat, emphasis}'' substantial conversation this time?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118A1C_1.ogg}}-->
+|{{linkable|41}}
+
+|-
+|GREETING
+|Neutral 50
+|''{TERMS, NO TOPS}'' Have you considered the terms of my offer? There's else little for us to discuss until you have.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118C0F_1.ogg}}-->
+|{{linkable|42}}
+
+|-
+|GREETING
+|Neutral 50
+|''{TERMS YES, NO CHIP}'' What is the purpose of this delay?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118C10_1.ogg}}-->
+|{{linkable|43}}
+
+|-
+|GREETING
+|Neutral 50
+|''{LATER, BENNY FLED}'' Events have transpired in a... ''{beat}'' less-than-optimal fashion. Benny has fled the Strip, and the Platinum Chip has not been recovered.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B673_1.ogg}}-->
+|{{linkable|44}}
+
+|-
+|GREETING
+|Neutral 50
+|''{LATER, BENNY FLED}'' Benny must be pursued, and the Platinum Chip, recovered.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155111_1.ogg}}-->
+|{{linkable|45}}
+
+|-
+|GREETING
+|Neutral 50
+|''{LATER, HAS CHIP, BENNY DEAD TOPS}'' So... Benny has been ''{slight beat}'' handled and you've recovered the Platinum Chip. Let's have it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B674_1.ogg}}-->
+|{{linkable|46}}
+
+|-
+|GREETING
+|Neutral 50
+|''{LATER, HAS CHIP}'' I take it you've come to deliver the Platinum Chip?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118FD1_1.ogg}}-->
+|{{linkable|47}}
+
+|-
+|rowspan="4" |GREETING
+|Neutral 50
+|''{HOUSE RECEIVES CHIP}'' ''{tenderly regarding the Chip}'' Such a small thing, isn't it? And yet so... ''{capacious = inexhaustibly capable}'' capacious. So very dear.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F26_1.ogg}}-->
+|{{linkable|48}}
+
+|-
+|Neutral 50
+|Decades of hiring salvagers out west to search for this little ''{beat}'' relic in the ruins of a place called Sunnyvale. Back then, anyway.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F26_2.ogg}}-->
+|{{linkable|49}}
+
+|-
+|Neutral 50
+|That's where the Chip was printed, on October 22, 2077. It was to have been hand-delivered to me here, at the Lucky 38, the next day. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F26_3.ogg}}-->
+|{{linkable|50}}
+
+|-
+|Neutral 50
+|But the bombs fell first. Suffice it to say, the delivery was never made.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F26_4.ogg}}-->
+|{{linkable|51}}
+
+|-
+|GREETING
+|Neutral 50
+|''{CHIP IN, STRIP SECS NO}'' ''{jaunty, eager to share your secret}'' Come now, come now... get thee to the elevator.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F27_1.ogg}}-->
+|{{linkable|52}}
+
+|-
+|GREETING
+|Neutral 50
+|''{CHIP IN, STRIP SECS NO}'' ''{growing impatient}'' To the elevator, if you please... Stop dragging your feet.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001599CA_1.ogg}}-->
+|{{linkable|53}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{STRIP SECS UP}'' ''{dry}'' Trips to the basement are rarely so educational, don't you think?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F28_1.ogg}}-->
+|{{linkable|54}}
+
+|-
+|Neutral 50
+|I've since broadcast the upgrade to every Securitron in range of my transmitters, and I must say, it's causing quite a stir down on the Strip!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F28_2.ogg}}-->
+|{{linkable|55}}
+
+|-
+|GREETING
+|Neutral 50
+|''{L38, HAS BUNKER MISSION}'' Make your way to Caesar's Camp at Fortification Hill. Something very interesting awaits you...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014D2D1_1.ogg}}-->
+|{{linkable|56}}
+
+|-
+|GREETING
+|Neutral 50
+|''{STRIP SECS UP, GIVES BUNKER MISSION}'' To secure the future of New Vegas, I must have your assistance. The work ahead is dangerous, but ''{beat}'' you weather danger well.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00120F29_1.ogg}}-->
+|{{linkable|57}}
+
+|-
+|GREETING
+|Neutral 50
+|''{STRIP SECS UP}'' Have you found the courage to do what's necessary?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C6_1.ogg}}-->
+|{{linkable|58}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, B4 CHIP}'' What did you wish to know?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118A05_1.ogg}}-->
+|{{linkable|59}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, B4 CHIP}'' What else did you want to know?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0011D995_1.ogg}}-->
+|{{linkable|60}}
+
+|-
+|GREETING
+|Neutral 50
+|''{FORT SECS NO}'' We'll talk again once you've concluded your work in the bunker at Fortification Hill.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB4_1.ogg}}-->
+|{{linkable|61}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{FORT SECS UP}'' The foundation is laid. My Securitrons on the Strip are upgraded, and those at the Fort, ready for action.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C0_1.ogg}}-->
+|{{linkable|62}}
+
+|-
+|Neutral 50
+|Now it's just a matter of adjusting the attitudes of some lesser groups while we wait for Caesar's Legion to attack Hoover Dam.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C0_2.ogg}}-->
+|{{linkable|63}}
+
+|-
+|GREETING
+|Neutral 50
+|''{PLAYER HASN'T ACCEPTED BOOMER QUEST YET}'' The next step is to add the Boomers' considerable firepower to my growing arsenal... or at the very least, ensure their neutrality.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C1_1.ogg}}-->
+|{{linkable|64}}
+
+|-
+|GREETING
+|Neutral 50
+|As I was saying, I need you to enlist or neutralize the Boomers at Nellis Air Force Base.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F567_1.ogg}}-->
+|{{linkable|65}}
+
+|-
+|GREETING
+|Neutral 50
+|''{BOOMERS QUEST ACTIVE}'' Any progress with the Boomers?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB7_1.ogg}}-->
+|{{linkable|66}}
+
+|-
+|rowspan="4" |GREETING
+|Neutral 50
+|Your next assignment won't take you far. It concerns the Omertas and their den of vice, Gomorrah.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C2_1.ogg}}-->
+|{{linkable|67}}
+
+|-
+|Neutral 50
+|As the decisive encounter between the bull and the bear looms close, my concerns about the Omertas have grown.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C2_2.ogg}}-->
+|{{linkable|68}}
+
+|-
+|Neutral 50
+|I've never expected loyalty, mind you. A reliably underhanded tribe is just as constant to deal with as one that always run true.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C2_3.ogg}}-->
+|{{linkable|69}}
+
+|-
+|Neutral 50
+|But that's just it - lately the Omertas' cooperative silence has been deafening. Not a single complaint? They're up to something.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C2_4.ogg}}-->
+|{{linkable|70}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|Your next assignment would've been to investigate the Omertas, but you managed to foil their scheme before I could put you to the task.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C3_1.ogg}}-->
+|{{linkable|71}}
+
+|-
+|Neutral 50
+|I should compensate you as though it were an official assignment, however. Wouldn't want to ''{beat}'' disincentivize your proactivity.''{cash out Omerta quest}'' <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C3_2.ogg}}-->
+|{{linkable|72}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|I'd hoped to have you investigate the Omertas, but after the trouble you caused at Gomorrah, they won't let you in the front door.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155112_1.ogg}}-->
+|{{linkable|73}}
+
+|-
+|Neutral 50
+|I'll see if I can make some progress with informants. You're useless in this matter.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155112_3.ogg}}-->
+|{{linkable|74}}
+
+|-
+|GREETING
+|Neutral 50
+|As I said before, I need you to investigate the Omertas, to see what they're up to.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F568_1.ogg}}-->
+|{{linkable|75}}
+
+|-
+|GREETING
+|Neutral 50
+|What do you have to report about the Omertas?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB6_1.ogg}}-->
+|{{linkable|76}}
+
+|-
+|rowspan="4" |GREETING
+|Neutral 50
+|Your next assignment is to locate and destroy remnants of the Mojave chapter of the Brotherhood of Steel.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C4_1.ogg}}-->
+|{{linkable|77}}
+
+|-
+|Neutral 50
+|The NCR nearly did the job at Helios One a few years ago, but there seem to have been survivors, unfortunately.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C4_2.ogg}}-->
+|{{linkable|78}}
+
+|-
+|Neutral 50
+|Given the Brotherhood's fanatical views on technology, they can be counted on to oppose my regime.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C4_3.ogg}}-->
+|{{linkable|79}}
+
+|-
+|Neutral 50
+|Please - put them out of my misery.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C4_4.ogg}}-->
+|{{linkable|80}}
+
+|-
+|GREETING
+|Neutral 50
+|As I've said, I need you to locate and destroy the Brotherhood of Steel.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F569_1.ogg}}-->
+|{{linkable|81}}
+
+|-
+|GREETING
+|Neutral 50
+|Have you destroyed the Brotherhood of Steel?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB8_1.ogg}}-->
+|{{linkable|82}}
+
+|-
+|GREETING
+|Neutral 50
+|Will you ensure that President Kimball survives his visit to Hoover Dam?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F56A_1.ogg}}-->
+|{{linkable|83}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{ALL REPUTATIONS LEAD-IN}'' Aaron Kimball, the president of the New California Republic, is going to visit Hoover Dam to "boost morale."<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C5_1.ogg}}-->
+|{{linkable|84}}
+
+|-
+|Neutral 50
+|Apparently he hasn't considered the effect on the troops' morale of seeing their beloved leader get his brains blown out by a Legion sniper.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_001418C5_2.ogg}}-->
+|{{linkable|85}}
+
+|-
+|GREETING
+|Neutral 50
+|''{GOOD REP LEAD-IN}'' I need you to make sure that no harm comes to President Kimball. It's fortunate that you've maintained good relations with the NCR...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADE_1.ogg}}-->
+|{{linkable|86}}
+
+|-
+|rowspan="2" |GREETING
+|Neutral 50
+|''{NCR REPUTATION TERRIBLE}'' Unfortunately, I can't use you to protect Kimball. The NCR won't let you come within a thousand feet of the President.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADF_1.ogg}}-->
+|{{linkable|87}}
+
+|-
+|Neutral 50
+|Odds are that Caesar will launch his assault on the dam after Kimball's visit is concluded, one way or the other - so be on guard.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014EADF_2.ogg}}-->
+|{{linkable|88}}
+
+|-
+|GREETING
+|Neutral 50
+|Last I knew, President Kimball wasn't scheduled to visit the Lucky 38. Be on your way to Hoover Dam, will you?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00126D9B_1.ogg}}-->
+|{{linkable|89}}
+
+|-
+|GREETING
+|Neutral 50
+|If not for you, President Kimball would be dead. So you needn't feel guilty when the NCR's rout from Hoover Dam demolishes his political career.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EB9_1.ogg}}-->
+|{{linkable|90}}
+
+|-
+|GREETING
+|Neutral 50
+|Why in the world did you attack President Kimball?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00126D9C_1.ogg}}-->
+|{{linkable|91}}
+
+|-
+|GREETING
+|Neutral 50
+|Kimball is dead - what a mess you've made!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EBA_1.ogg}}-->
+|{{linkable|92}}
+
+|-
+|rowspan="3" |GREETING
+|Neutral 50
+|''{GIVES EL DORADO SUBSTATION QUEST}'' Between the Strip and HELIOS One lies the El Dorado electrical substation.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155113_1.ogg}}-->
+|{{linkable|93}}
+
+|-
+|Neutral 50
+|Humble as it appears, the substation has immense strategic value, for it's there that you'll jumpstart the Lucky 38's dormant reactor.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155113_2.ogg}}-->
+|{{linkable|94}}
+
+|-
+|Neutral 50
+|Gain access to the substation's control room and install this override module. Just so you know, there are NCR troops guarding the station.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155113_3.ogg}}-->
+|{{linkable|95}}
+
+|-
+|GREETING
+|Neutral 50
+|Until the Lucky 38's reactor has been restarted, we have nothing to discuss.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EBB_1.ogg}}-->
+|{{linkable|96}}
+
+|-
+|rowspan="3" |GREETING
+|Neutral 50
+|As you can see, Vegas is humming along. I've tested my c3i broadcasting arrays. Everything is in order.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155114_1.ogg}}-->
+|{{linkable|97}}
+
+|-
+|Neutral 50
+|And just in time, as it turns out. The forces of Caesar's Legion are on the march, establishing a staging area east of the dam.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155114_2.ogg}}-->
+|{{linkable|98}}
+
+|-
+|Neutral 50
+|Their assault could begin at any moment. So that's where you'll be heading, if you're ready - Hoover Dam.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00155114_3.ogg}}-->
+|{{linkable|99}}
+
+|-
+|GREETING
+|Neutral 50
+|The Legion's assault could begin at any moment.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00125EBD_1.ogg}}-->
+|{{linkable|100}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, STRIP SECS UP}'' What did you want to discuss?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_00118A21_1.ogg}}-->
+|{{linkable|101}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, STRIP SECS UP}'' What else did you want to discuss?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0011A0F7_1.ogg}}-->
+|{{linkable|102}}
+
+|-
+|GREETING
+|Neutral 50
+|''{Player fled combat last time}'' There will be no repeat of the trouble we had last time, I trust?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B675_1.ogg}}-->
+|{{linkable|103}}
+
+|-
+|GREETING
+|Neutral 50
+|''{Player fled combat last time}'' I'm optimistic that this conversation will go more smoothly.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014B676_1.ogg}}-->
+|{{linkable|104}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, FORT SECS UP}'' I'd rather you just dealt with the Boomers, but all right...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F56B_1.ogg}}-->
+|{{linkable|105}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, FORT SECS UP}'' I suppose the Omertas can wait a few minutes.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F56C_1.ogg}}-->
+|{{linkable|106}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, FORT SECS UP}'' A few questions, and then you'll handle the Brotherhood, I hope?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F56D_1.ogg}}-->
+|{{linkable|107}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, FORT SECS UP}'' Questions like "Will President Kimball survive his visit to Hoover Dam?" <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F56E_1.ogg}}-->
+|{{linkable|108}}
+
+|-
+|GREETING
+|Neutral 50
+|''{MQN, FORT SECS UP}'' Even now? On the brink of battle?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueMrHouse_GREETING_0014F56F_1.ogg}}-->
+|{{linkable|109}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseOUTDATEDTopic001}}<br />''[Barter] for better terms.''
+|It's a great start... but well below market price.
+|Neutral 50
+|[SUCCEEDED] Very well... five times your delivery bonus - ''{with finality}'' not one cap more.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D96_1.ogg}}-->
+|{{linkable|110}}
+
+|-
+|rowspan="2" |Raise your price or... or... you'll be "chip outta luck."
+|Neutral 50
+|[FAILED] Is that an attempt at...''{beat}'' ''{distaste} '' humor?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D97_1.ogg}}-->
+|{{linkable|111}}
+
+|-
+|Neutral 50
+|I've always taken business negotiations seriously. I advise you to do the same.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D97_2.ogg}}-->
+|{{linkable|112}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseOUTDATEDTopic009}}
+|How do I open the hatch?
+|Neutral 50
+|You can't - but the Chip can. The hatch will recognize the Platinum Chip and "open sesame."<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0012716A_1.ogg}}-->
+|{{linkable|113}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseOUTDATEDTopic016}}
+|rowspan="2" |It's not safe for me to go back. The Legion will attack me on sight.
+|Neutral 50
+|You'll need a disguise, then. Or overwhelming firepower. Whatever works.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00127169_1.ogg}}-->
+|{{linkable|114}}
+
+|-
+|Neutral 50
+|Sorry for the inconvenience, but it can't be helped. This is too important.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00127169_2.ogg}}-->
+|{{linkable|115}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic000}}
+|rowspan="3" |I've never seen anything like this place.
+|Neutral 50
+|Of course you haven't. Vegas always was one of a kind.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B56_4.ogg}}-->
+|{{linkable|116}}
+
+|-
+|Neutral 50
+|What you see down on the Strip is just a fraction of the city's former glory, and yet... ''{beat}'' more than an echo. I preserved its spirit.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B56_1.ogg}}-->
+|{{linkable|117}}
+
+|-
+|Neutral 50
+|Or perhaps you were referring to the Lucky 38? The years haven't been kind to her, but still she manages to impress.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B56_3.ogg}}-->
+|{{linkable|118}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic001}}
+|rowspan="3" |A city devoted to vice and sin - what's not to love?
+|Neutral 50
+|''{not buying it}'' Oh, come now - don't play the fool. Vegas has fools enough, a superfluity of them. They're what makes it so profitable.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B54_3.ogg}}-->
+|{{linkable|119}}
+
+|-
+|Neutral 50
+|They come to Vegas chasing penny-ante dreams of high-living, to feel like they're big shots, like they're winners.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B54_1.ogg}}-->
+|{{linkable|120}}
+
+|-
+|Neutral 50
+|You see that you and I are of a different stripe, don't you? We don't have to ''{emphasis}'' dream that we're important. We ''{emphasis}'' are.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B54_2.ogg}}-->
+|{{linkable|121}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic002}}
+|rowspan="3" |I prefer the wasteland, to be honest.
+|Neutral 50
+|''{arch}'' You aren't going to ramble on about the virtues of life out in the wastes, are you? It's a desert, you do realize?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B4E_1.ogg}}-->
+|{{linkable|122}}
+
+|-
+|Neutral 50
+|A radioactive desert where humans subsist in a barbaric state? Difficult to glorify convincingly. They are, however, aptly named.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B4E_2.ogg}}-->
+|{{linkable|123}}
+
+|-
+|Neutral 50
+|For that's what you'd be out there - wasted. Here on the Strip, your talents can be put to use.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B4E_3.ogg}}-->
+|{{linkable|124}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic003}}
+|Can we get down to business?
+|Neutral 50
+|Oh, by all means - yes. That's refreshing.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C8_1.ogg}}-->
+|{{linkable|125}}
+
+|-
+|rowspan="2" |Can we get down to business?
+|Neutral 50
+|The business is this. One of my employees has stolen an item of extraordinary value from me, and I want it recovered.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B55_1.ogg}}-->
+|{{linkable|126}}
+
+|-
+|Neutral 50
+|Simple enough?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B55_2.ogg}}-->
+|{{linkable|127}}
+
+|-
+|Can we get down to business?
+|Neutral 50
+|You're ready to move forward, then?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A3E_1.ogg}}-->
+|{{linkable|128}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic004}}
+|Why the VIP treatment? I'm just a courier.
+|Neutral 50
+|Oh, don't be coy. You've been playing a high-stakes game ever since Victor dug you out of the ground. Don't be afraid to admit it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00116B4F_2.ogg}}-->
+|{{linkable|129}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic006}}
+|rowspan="2" |I should let you know that I planted a surveillance device on one of your data terminals.
+|Neutral 50
+|Yes, I know. It was detected immediately and deactivated... let's see... 39.735 seconds after you planted it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A12_1.ogg}}-->
+|{{linkable|130}}
+
+|-
+|Neutral 50
+|You thought I wouldn't notice?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A12_2.ogg}}-->
+|{{linkable|131}}
+
+|-
+|rowspan="2" |A woman named Emily asked me to bug one of your data terminals.
+|Neutral 50
+|One of the Followers of the Apocalypse, I'm sure. They're curious about me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A13_1.ogg}}-->
+|{{linkable|132}}
+
+|-
+|Neutral 50
+|Good luck planting a surveillance device here in the Lucky 38 without my knowing about it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A13_2.ogg}}-->
+|{{linkable|133}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic008}}
+|The NCR will welcome my help.
+|Neutral 50
+|Precisely. You'll have no trouble joining the battle on their side, and they'll be too distracted to notice why you're really there.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155439_1.ogg}}-->
+|{{linkable|134}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic011}}
+|rowspan="2" |What the hell are you?
+|Neutral 50
+|''{disappointed}'' A crude question, crudely asked.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015AB8A_1.ogg}}-->
+|{{linkable|135}}
+
+|-
+|Neutral 50
+|I'll be happy to satisfy your ''{disapproving}'' rambunctious curiosity at a more appropriate moment. But now, I'll repeat my question...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015AB8A_2.ogg}}-->
+|{{linkable|136}}
+
+|-
+|What the hell are you?
+|Neutral 50
+|What do you make of what you've seen?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015AB8B_1.ogg}}-->
+|{{linkable|137}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic012}}
+|rowspan="4" |Why didn't you intervene sooner when Benny ambushed me?
+|Neutral 50
+|Why didn't ''{emphasis}'' Victor intervene sooner, you mean?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D987_2.ogg}}-->
+|{{linkable|138}}
+
+|-
+|Neutral 50
+|Goodsprings is a bit too far away for me to reliably control a Securitron agent by remote. I can send and receive packets of data, at best.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D987_3.ogg}}-->
+|{{linkable|139}}
+
+|-
+|Neutral 50
+|Victor's combat algorithms determined the proper course of action. Benny and his thugs were more than a match for a lone Securitron.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D987_4.ogg}}-->
+|{{linkable|140}}
+
+|-
+|Neutral 50
+|When he alerted me, I instructed him to approach the site after Benny and the others had departed.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D987_1.ogg}}-->
+|{{linkable|141}}
+
+|-
+|rowspan="29" |{{linkable|VDialogueMrHouseMrHouseTopic017}}
+|rowspan="2" |What are your plans for New Vegas?{Securitrons upgraded.}
+|Neutral 50
+|I've resurrected Vegas, spirit intact. What I need now is the ability to enforce my rightful claim.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F11_1.ogg}}-->
+|{{linkable|142}}
+
+|-
+|Neutral 50
+|Not just against Caesar's Legion, by the way. In fact, the NCR is a more present and insidious threat.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F11_2.ogg}}-->
+|{{linkable|143}}
+
+|-
+|rowspan="4" |How do you intend to enforce your claim on the city?
+|Neutral 50
+|To enforce, one must have force - a position of strength.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F12_1.ogg}}-->
+|{{linkable|144}}
+
+|-
+|Neutral 50
+|Years ago, when I detected NCR scouts roaming the Mojave, I could tell from their uniforms that these were no mere tribesmen.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F12_2.ogg}}-->
+|{{linkable|145}}
+
+|-
+|Neutral 50
+|I knew it was only a matter of time before an army appeared, to take control of the dam. And I knew my Securitrons wouldn't be enough to oppose them.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F12_3.ogg}}-->
+|{{linkable|146}}
+
+|-
+|Neutral 50
+|And so I recruited the Three Families. Vegas belongs to me because I mustered enough strength to bring the NCR to the bargaining table.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F12_4.ogg}}-->
+|{{linkable|147}}
+
+|-
+|rowspan="4" |Wasn't the NCR's army big enough to defeat your Securitrons and the Three Families?
+|Neutral 50
+|Indeed it was - and still is. But not without taking significant casualties.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F13_1.ogg}}-->
+|{{linkable|148}}
+
+|-
+|Neutral 50
+|Would Kimball and Oliver have traded the lives of hundreds of soldiers for absolute control of Hoover Dam? Oh yes.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F13_2.ogg}}-->
+|{{linkable|149}}
+
+|-
+|Neutral 50
+|They weren't afraid of me, they were afraid of Caesar - that attacking me would leave them vulnerable to a Legion offensive.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F13_3.ogg}}-->
+|{{linkable|150}}
+
+|-
+|Neutral 50
+|And so they negotiated. Not out of the kindness of their hearts, as they try to make it seem. Because the calculus of power left no other choice.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F13_4.ogg}}-->
+|{{linkable|151}}
+
+|-
+|rowspan="4" |What were the terms of your treaty with the NCR?
+|Neutral 50
+|NCR forces were permitted to occupy Hoover Dam and establish a military base at McCarran Airport. ''{not an airport anymore}'' Well, it used to be one.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F14_1.ogg}}-->
+|{{linkable|152}}
+
+|-
+|Neutral 50
+|They recognized my sovereignty over the Vegas Strip and agreed to supply electricity and water once their engineers repaired the dam.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F14_2.ogg}}-->
+|{{linkable|153}}
+
+|-
+|Neutral 50
+|Written into the treaty were provisions that the NCR do nothing to prevent its soldiers and civilians from visiting the Strip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F14_3.ogg}}-->
+|{{linkable|154}}
+
+|-
+|Neutral 50
+|That's how I harnessed the NCR to my endeavor. Their occupation has been the engine of my growing economy.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F14_4.ogg}}-->
+|{{linkable|155}}
+
+|-
+|rowspan="3" |You would go to war against the NCR?
+|Neutral 50
+|The salient issue is that they will go to war with me, if given the chance.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC4_1.ogg}}-->
+|{{linkable|156}}
+
+|-
+|Neutral 50
+|There's just one reason why the NCR hasn't contrived some outrage to justify invading the Strip - Caesar's Legion.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC4_2.ogg}}-->
+|{{linkable|157}}
+
+|-
+|Neutral 50
+|The final battle between those two armies is fast approaching. I can't afford to let either side win on their terms.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC4_3.ogg}}-->
+|{{linkable|158}}
+
+|-
+|rowspan="5" |Say you keep control of New Vegas. What happens next?
+|Neutral 50
+|New Vegas is more than a city - it's the remedy to mankind's ''{beat}'' derailment.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C9_2.ogg}}-->
+|{{linkable|159}}
+
+|-
+|Neutral 50
+|The city's economy is a blast furnace in which can be forged the steel of a new rail line, running straight to a new horizon.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C9_3.ogg}}-->
+|{{linkable|160}}
+
+|-
+|Neutral 50
+|What is the NCR? A society of people desperate to experience comfort, ease, luxury... A society of customers.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C9_4.ogg}}-->
+|{{linkable|161}}
+
+|-
+|Neutral 50
+|With all that money pouring in? Give me 20 years, and I'll reignite the high technology development sectors. 50 years, and I'll have people in orbit.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C9_5.ogg}}-->
+|{{linkable|162}}
+
+|-
+|Neutral 50
+|100 years, and my colony ships will be heading for the stars, to search for planets unpolluted by the wrath and folly of a bygone generation.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C9_6.ogg}}-->
+|{{linkable|163}}
+
+|-
+|rowspan="3" |In the meantime, you'd rule Vegas as some kind of dictator?
+|Neutral 50
+|I prefer the term "autocrat."<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A14_1.ogg}}-->
+|{{linkable|164}}
+
+|-
+|Neutral 50
+|I would rule as a chief executive. I would not answer to a board of directors or any other entity.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A14_2.ogg}}-->
+|{{linkable|165}}
+
+|-
+|Neutral 50
+|Nothing to impede progress. If you want to see the fate of democracies, look out the windows.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A14_3.ogg}}-->
+|{{linkable|166}}
+
+|-
+|rowspan="4" |What's to keep you from abusing your power?
+|Neutral 50
+|My judgement. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A15_1.ogg}}-->
+|{{linkable|167}}
+
+|-
+|Neutral 50
+|I have no interest in abusing others, just as I have no interest in legislating or otherwise dictating what people do in their private time.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A15_2.ogg}}-->
+|{{linkable|168}}
+
+|-
+|Neutral 50
+|Nor have I any interest in being worshipped as some kind of machine god messiah. I am impervious to such corrupting ambitions.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A15_3.ogg}}-->
+|{{linkable|169}}
+
+|-
+|Neutral 50
+|But autocracy? Firm control in the hands of a technological and economic visionary? Yes, that Vegas shall have.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A15_4.ogg}}-->
+|{{linkable|170}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic018}}
+|Sure, off to the dam I go.
+|Neutral 50
+|I'm sure the assassins will wait for you to show up.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F561_1.ogg}}-->
+|{{linkable|171}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic022}}
+|Not so fast, Mr. House. We need to discuss payment.
+|Neutral 50
+|Our terms were clear. Now that you have the Chip in your possession, any attempt to "re-negotiate" payment would be tantamount to blackmail. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F0A_2.ogg}}-->
+|{{linkable|172}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic028}}
+|rowspan="3" |What use would you have for a protege?
+|Neutral 50
+|To achieve my aims, I require a capable human agent to perform certain... ''{choosing word}'' tasks.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D993_1.ogg}}-->
+|{{linkable|173}}
+
+|-
+|Neutral 50
+|I knew Benny was ambitious, even ruthless. But I believed he would do the job, so long as he was incentivized appropriately.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D993_2.ogg}}-->
+|{{linkable|174}}
+
+|-
+|Neutral 50
+|Obviously, I miscalculated his drive for supremacy. But in any case, you've come along - a more-than-suitable replacement.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D993_4.ogg}}-->
+|{{linkable|175}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic029}}
+|1000 caps? I accept your terms.
+|Neutral 50
+|''{satisfied}'' Well enough.  Return to me when you have the Platinum Chip in your possession. Any final matters for us to discuss?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A3C_1.ogg}}-->
+|{{linkable|176}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic030}}
+|rowspan="2" |What terms are you offering?
+|Neutral 50
+|My only concern is the recovery of the Platinum Chip. What happens to Benny, I leave to your discretion.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A38_1.ogg}}-->
+|{{linkable|177}}
+
+|-
+|Neutral 50
+|When you bring the Chip to me, I will pay you four times the delivery bonus stipulated in your contract. How's that?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A38_2.ogg}}-->
+|{{linkable|178}}
+
+|-
+|Tell me your terms again?
+|Neutral 50
+|As I said before, Benny's fate is yours to decide. Once you've delivered the Chip, I will pay you the amount agreed-upon.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D990_1.ogg}}-->
+|{{linkable|179}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic031}}
+|rowspan="2" |Tell me about Benny.{alive}
+|Neutral 50
+|Benny has led the Chairmen ever since I recruited his tribe seven years ago.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A04_1.ogg}}-->
+|{{linkable|180}}
+
+|-
+|Neutral 50
+|Until his recent misbehavior, I'd planned to make him my protege. Maybe if I'd begun grooming him sooner, none of this would've happened...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A04_2.ogg}}-->
+|{{linkable|181}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic032}}
+|No thanks.
+|Neutral 50
+|My offer far exceeds the original terms of your contract, which, I will remind you, already obligate you to deliver the Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A3F_1.ogg}}-->
+|{{linkable|182}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic033}}<br />''[Barter] for better terms.''
+|It's a good start... but well below market price.
+|Neutral 50
+|[SUCCEEDED] Very well, five times the bonus. ''{with finality}'' Not one cap more.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A40_1.ogg}}-->
+|{{linkable|183}}
+
+|-
+|rowspan="2" |Raise your price or... or, uh... you're "chip outta luck."
+|Neutral 50
+|[FAILED] Is that an attempt at...''{beat}'' ''{distaste} '' humor?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A41_1.ogg}}-->
+|{{linkable|184}}
+
+|-
+|Neutral 50
+|I've always taken business negotiations very seriously. I advise you to do the same. ''{Duplicate.}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A41_2.ogg}}-->
+|{{linkable|185}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic034}}
+|rowspan="2" |What is the Platinum Chip?
+|Neutral 50
+|It's a very special item. There's nothing else like it in the entire world. It was lost a long time, and difficult to find.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A00_1.ogg}}-->
+|{{linkable|186}}
+
+|-
+|Neutral 50
+|That's all you need to know about it, for this stage of our enterprise. Fulfill your contract, deliver the Chip, and good things will come your way.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A00_3.ogg}}-->
+|{{linkable|187}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic036}}
+|Goodbye.
+|Neutral 50
+|Well enough. Be on your way.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00133710_1.ogg}}-->
+|{{linkable|188}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic038}}
+|What was your relationship with Benny... back when he was breathing?
+|Neutral 50
+|Benny was the leader of the Chairmen for seven years, ever since I recruited the tribe. I considered him something of a protege.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D8A_1.ogg}}-->
+|{{linkable|189}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic039}}
+|rowspan="3" |Who exactly are you, Mr. House?{Before Chip turned in.}
+|Neutral 50
+|I am Robert Edwin House, President, CEO, and sole proprietor of the New Vegas Strip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A09_3.ogg}}-->
+|{{linkable|190}}
+
+|-
+|Neutral 50
+|I oversaw the city's renovations starting from 2274 onward. The Three Families are my employees.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A09_2.ogg}}-->
+|{{linkable|191}}
+
+|-
+|Neutral 50
+|Before the Great War of 2077, I was the founder, President and CEO of RobCo Industries, a vast computer and robotics corporation.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A09_1.ogg}}-->
+|{{linkable|192}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic043}}
+|Tell me about the factions vying for New Vegas.
+|Neutral 50
+|It's understandable that you'd be curious about this topic, but we'll hold off until the Platinum Chip has been recovered.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A3B_1.ogg}}-->
+|{{linkable|193}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic046}}
+|rowspan="3" |I'm not going to give you the Chip.
+|Neutral 50
+|''{drawn out}'' Hmm... ''{to yourself}'' How shall I put this?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F24_2.ogg}}-->
+|{{linkable|194}}
+
+|-
+|Neutral 50
+|''{taking time, spelling it out}'' Delivery of the Platinum Chip is non-negotiable. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F24_1.ogg}}-->
+|{{linkable|195}}
+
+|-
+|Neutral 50
+|I invite you to think carefully about what you do next... standing alone before me, surrounded by my heavily-armed Securitron guards.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F24_3.ogg}}-->
+|{{linkable|196}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic047}}
+|rowspan="3" |Attack me and you risk destroying the Chip.
+|Neutral 50
+|''{restraining anger}'' By the time I was 30 years old, I was a billionaire 30 times over. I founded and ran a vast economic empire.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFE_1.ogg}}-->
+|{{linkable|197}}
+
+|-
+|Neutral 50
+|''{restraining anger}'' Do you really think I'm going to let an upstart come into my home and ransom my property to me?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFE_3.ogg}}-->
+|{{linkable|198}}
+
+|-
+|Neutral 50
+|''{restraining anger, losing it a little towards end}'' I spent two centuries searching for the Platinum Chip. It's my invention, my property - mine. Now be a good courier and deliver it!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFE_2.ogg}}-->
+|{{linkable|199}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic048}}
+|rowspan="2" |Here it is. <Give the Platinum Chip to Mr. House.>
+|Neutral 50
+|''{sarcastic}'' Why, thank you so much. You played that ''{beat}'' very poorly, you realize?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F0E_1.ogg}}-->
+|{{linkable|200}}
+
+|-
+|Neutral 50
+|You're fortunate that I have a certain ''{beat}'' tolerance for greed. I expect my business partners to be self-interested - but ''{unlike you}'' smartly so. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F0E_2.ogg}}-->
+|{{linkable|201}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic049}}
+|I'm not afraid of you, Mr. House. The Platinum Chip belongs to me.
+|Neutral 50
+|''{ordering attack}'' You needn't be afraid of me. It's my Securitrons that are going to kill you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F02_1.ogg}}-->
+|{{linkable|202}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic050}}
+|rowspan="2" |I think that sounds insane.
+|Neutral 50
+|Not if you've been invited. You realize that you've made quite a splash here in New Vegas?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFD_1.ogg}}-->
+|{{linkable|203}}
+
+|-
+|Neutral 50
+|I can predict with a high degree of confidence that you'll receive an official summons from Caesar. If you haven't already, that is.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFD_2.ogg}}-->
+|{{linkable|204}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic051}}<br />''Use [Speech] to press Mr. House about the Chip.''
+|The more I know about the Chip, the easier I can find it...
+|Neutral 50
+|[SUCCEEDED] You might keep an eye out for any computers that Benny's been using. Maybe even a computer lab of some sort...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A11_1.ogg}}-->
+|{{linkable|205}}
+
+|-
+|rowspan="2" |The less I know, the less I care. Know what I mean?
+|Neutral 50
+|[FAILED] You have a contract to fulfill, a delivery to make.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A12_1.ogg}}-->
+|{{linkable|206}}
+
+|-
+|Neutral 50
+|If you can't hold to a contract, simply for the ethic of holding to a contract, you're worthless to me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A12_2.ogg}}-->
+|{{linkable|207}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic055}}
+|rowspan="2" |What do you want me to do there?
+|Neutral 50
+|I want you to open a hatch in the basement of the derelict weather station atop Fortification Hill.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F0F_2.ogg}}-->
+|{{linkable|208}}
+
+|-
+|Neutral 50
+|You'll recognize it on sight. The hatch bears the logo of the Lucky 38, same as the Platinum Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F0F_3.ogg}}-->
+|{{linkable|209}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic056}}
+|You appear to be a computer, not a man.
+|Neutral 50
+|Don't let the video screens and computer terminals fool you. I'm flesh and blood, not silicon.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A01_1.ogg}}-->
+|{{linkable|210}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic057}}<br />''Use Medicine skill to surmise House's condition.''
+|rowspan="2" |The lifespan you're claiming is impossible, except for ghouls and super mutants.
+|Neutral 50
+|[SUCCEEDED] I see you've made a study of the topic. My knowledge of the science of longevity would fill several text books...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A07_1.ogg}}-->
+|{{linkable|211}}
+
+|-
+|Neutral 50
+|Perhaps, after a decade or two of economic reconstruction, I can commercialize these technologies and offer to others, such as yourself.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A07_2.ogg}}-->
+|{{linkable|212}}
+
+|-
+|rowspan="2" |You must be, like... a brain in a jar!
+|Neutral 50
+|[FAILED] No. While brains demonstrated some use as organic processors in the robots produced by General Atomics International...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A08_1.ogg}}-->
+|{{linkable|213}}
+
+|-
+|Neutral 50
+|They never retained personality once removed from the human body.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A08_2.ogg}}-->
+|{{linkable|214}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic058}}
+|How have you stayed alive all this time?
+|Neutral 50
+|Let's just say it was very... ''{beat}'' costly. But I was willing to make the sacrifices longevity entailed, financial and otherwise.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001189FE_1.ogg}}-->
+|{{linkable|215}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic061}}
+|Caesar has already invited me to the Fort.
+|Neutral 50
+|I'm not surprised. The Legion has spies on the Strip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F1D_1.ogg}}-->
+|{{linkable|216}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic063}}
+|I'll return when I have the Chip.
+|Neutral 50
+|Until then.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118A3A_1.ogg}}-->
+|{{linkable|217}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic065}}
+|I've already visited Caesar.{Kill Benny at Tops, see CL 1st}
+|Neutral 50
+|''{nonplussed}'' You have? So you have the means to gain entry?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F10_1.ogg}}-->
+|{{linkable|218}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic066}}
+|rowspan="2" |No thanks, Mr. House.
+|Neutral 50
+|If you find Caesar's Legion so frightening at this remove, imagine them rampaging across the Strip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFC_1.ogg}}-->
+|{{linkable|219}}
+
+|-
+|Neutral 50
+|We have a chance to see them destroyed, to see New Vegas become the harbinger of a new age.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFC_2.ogg}}-->
+|{{linkable|220}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic067}}
+|I have some questions to ask first...
+|Neutral 50
+|This is not the time for Q&A. Kindly hand over the Chip. ''{DUPLICATE}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB2_1.ogg}}-->
+|{{linkable|221}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic070}}
+|I have some questions to ask first...
+|Neutral 50
+|This is not the time for Q&A. Kindly hand over the Chip. ''{DUPLICATE}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABB_1.ogg}}-->
+|{{linkable|222}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic073}}
+|I'm ready. Let's finish this.
+|Neutral 50
+|We've accomplished a great deal, you and I. One last task, and our work is complete. I'll see you in the control room.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015EB69_4.ogg}}-->
+|{{linkable|223}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic074}}
+|I have some things to take care of before the battle.
+|Neutral 50
+|''{tense}'' Then handle them with dispatch. The Legion's assault is imminent.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015EB61_1.ogg}}-->
+|{{linkable|224}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic078}}
+|No thanks, not interested.
+|Neutral 50
+|So you've said before. You're making a habit of wasting my time.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118C0B_1.ogg}}-->
+|{{linkable|225}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic082}}
+|No, I'm still not interested.
+|Neutral 50
+|You signed a contract in good faith to deliver that Chip. You're going to have a hard time on the Strip if you are so incautious of making enemies...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118C0C_1.ogg}}-->
+|{{linkable|226}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic084}}
+|Never mind. Goodbye.
+|Neutral 50
+|''{impatient}'' Please focus on the task at hand - for both our sakes.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118C0D_1.ogg}}-->
+|{{linkable|227}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic085}}
+|rowspan="2" |I've changed my mind.
+|Neutral 50
+|No, you haven't.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118C0E_1.ogg}}-->
+|{{linkable|228}}
+
+|-
+|Neutral 50
+|This is the second time you've promised to deliver the Platinum Chip. Even if you don't hold yourself to your promises, I will.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00118C0E_2.ogg}}-->
+|{{linkable|229}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic094}}
+|rowspan="3" |What's my stake in this?
+|Neutral 50
+|I'm not offering you an incentive as crude as money - though there'll be plenty of that.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A2_1.ogg}}-->
+|{{linkable|230}}
+
+|-
+|Neutral 50
+|What I'm offering you is a ground-floor opportunity in the most important enterprise on Earth.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A2_2.ogg}}-->
+|{{linkable|231}}
+
+|-
+|Neutral 50
+|What I'm offering is a future - for you, and for what remains of the human race.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A2_3.ogg}}-->
+|{{linkable|232}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic103}}
+|rowspan="2" |I think I'll be leaving.
+|Neutral 50
+|You are the first person to step foot inside the Lucky 38 in over 200 years. It was not an invitation I made lightly.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D0C6_1.ogg}}-->
+|{{linkable|233}}
+
+|-
+|Neutral 50
+|We have a serious matter to discuss, concerning a contract you have yet to fulfill.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D0C6_2.ogg}}-->
+|{{linkable|234}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic105}}
+|rowspan="3" |Not interested. I'll see myself out.
+|Neutral 50
+|You have an "interest" in this, whether you like it or not. You signed a contract to deliver the Platinum Chip to me. ''{seething}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D0C5_1.ogg}}-->
+|{{linkable|235}}
+
+|-
+|Neutral 50
+|''{you need the player; threats won't work}'' Now, I could stop you from leaving, but what would that accomplish? If you want to go, go.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D0C5_2.ogg}}-->
+|{{linkable|236}}
+
+|-
+|Neutral 50
+|See what the Strip I built - the Strip I own - has to offer. Think about what I could offer you. I expect we'll have occasion to talk again.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D0C5_3.ogg}}-->
+|{{linkable|237}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic106}}
+|rowspan="2" |Why did Benny betray you?
+|Neutral 50
+|I have to think that he found out about the Platinum Chip and mistakenly convinced himself that he could use it to his own ends.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98C_1.ogg}}-->
+|{{linkable|238}}
+
+|-
+|Neutral 50
+|One of the problems of a tribal work force, I'm afraid. No intuitive understanding of how complex technologies can be.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98C_2.ogg}}-->
+|{{linkable|239}}
+
+|-
+|rowspan="5" |{{linkable|VDialogueMrHouseMrHouseTopic109}}
+|rowspan="5" |I have a right to know more.
+|Neutral 50
+|That's simply not true.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D985_4.ogg}}-->
+|{{linkable|240}}
+
+|-
+|Neutral 50
+|I am the only person to hold any rights pertaining to the Chip. I designed it, and I paid for it - dearly.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D985_1.ogg}}-->
+|{{linkable|241}}
+
+|-
+|Neutral 50
+|To develop that Chip, I spent a sum of U.S. dollars - not the bottle caps that pass as currency these days - but a sum beyond counting.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D985_2.ogg}}-->
+|{{linkable|242}}
+
+|-
+|Neutral 50
+|For decades, I paid salvagers to comb the ruins for it.  And when it was finally discovered, tens of thousands of caps spent to have it brought here.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D985_5.ogg}}-->
+|{{linkable|243}}
+
+|-
+|Neutral 50
+|We know how that turned out. Complete your contract and it will be the last time I pay for the Chip. Save your questions for then.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D985_3.ogg}}-->
+|{{linkable|244}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic110}}
+|rowspan="4" |If the Chip's so valuable, why use a single courier to transport it?
+|Neutral 50
+|You realize you were just one of many couriers, the rest of them ''{beat}'' dummies, so to speak?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D986_1.ogg}}-->
+|{{linkable|245}}
+
+|-
+|Neutral 50
+|Add to that many thousands of caps worth of mercenary protection to screen your avenue of approach.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D986_2.ogg}}-->
+|{{linkable|246}}
+
+|-
+|Neutral 50
+|Had I used an armed caravan to transport the Chip, I might as well have been announcing to the world "this is important. Attack this!"<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D986_3.ogg}}-->
+|{{linkable|247}}
+
+|-
+|Neutral 50
+|I didn't want to attract the attention of groups like the Great Khans or the Brotherhood of Steel. Alas, the real threat was closer to home.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D986_4.ogg}}-->
+|{{linkable|248}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic112}}
+|rowspan="3" |Why don't you send your robots into the Tops to arrest Benny?
+|Neutral 50
+|Frontal assaults on casinos? Not good for business.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D988_1.ogg}}-->
+|{{linkable|249}}
+
+|-
+|Neutral 50
+|In any case, Benny would see it coming. And all he'd have to do is hold the Chip up and point a pistol at it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D988_3.ogg}}-->
+|{{linkable|250}}
+
+|-
+|Neutral 50
+|Our foremost advantage is that Benny doesn't know that I know he has the Chip - let's not squander it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D988_2.ogg}}-->
+|{{linkable|251}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic113}}
+|What happens if the Platinum Chip is never lost?
+|Neutral 50
+|Then Vegas shall be lost, and with it, mankind's best hope for long-term survival.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98E_1.ogg}}-->
+|{{linkable|252}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic114}}
+|rowspan="3" |Isn't that overstating things a bit?
+|Neutral 50
+|To your untrained eyes, it may look as though mankind is making a comeback. In the NCR, you have something that remsembles a nation state. ''{Look around you. How can the human race have a future when it's still living in the wreckage of its past?}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D994_1.ogg}}-->
+|{{linkable|253}}
+
+|-
+|Neutral 50
+|Savage as it is, in Caesar's Legion, you have an organized society. But neither of these offer a future. They're regurgitations of the past.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D994_2.ogg}}-->
+|{{linkable|254}}
+
+|-
+|Neutral 50
+|Bring me the Platinum Chip, and in ten years you'll hardly recognize this city.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D994_3.ogg}}-->
+|{{linkable|255}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic115}}
+|How do I get to Benny?
+|Neutral 50
+|It won't be easy... Benny is always surrounded by at least four bodyguards - except when he's in his private suite on the 13th floor of the Tops...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98B_1.ogg}}-->
+|{{linkable|256}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic116}}
+|Say I want to take a diplomatic approach.
+|Neutral 50
+|If you were to approach Benny in public, you might be able to leverage his fear of exposure to make him agree to meet with you in private.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D991_1.ogg}}-->
+|{{linkable|257}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic117}}
+|rowspan="2" |Any ideas on how I could catch him off-guard?
+|Neutral 50
+|Sneaking into Benny's suite on the 13th floor would be very difficult... but not impossible.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98A_1.ogg}}-->
+|{{linkable|258}}
+
+|-
+|Neutral 50
+|There might be guards. Certainly there'd be a sturdy lock on his front door.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98A_2.ogg}}-->
+|{{linkable|259}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic118}}
+|rowspan="3" |The Chairmen are your employees. Don't they take orders?
+|Neutral 50
+|It's more complicated than that. The Chairmen share what you might call a... ''{beat}'' tribal affinity.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D996_3.ogg}}-->
+|{{linkable|260}}
+
+|-
+|Neutral 50
+|Look for a man named Swank, Benny's second-in-command. He's always been a reliable, if unimaginative, employee.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D996_1.ogg}}-->
+|{{linkable|261}}
+
+|-
+|Neutral 50
+|Do your best to convince him that you're working under my auspices. If you have evidence of Benny's crimes, show it to him.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D996_2.ogg}}-->
+|{{linkable|262}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic123}}
+|rowspan="2" |Why can't you be the one to tell Swank?
+|Neutral 50
+|By contract, Securitrons are to enter the casinos only when invited by the Three Families or if other extraordinary circumstances arise.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D989_1.ogg}}-->
+|{{linkable|263}}
+
+|-
+|Neutral 50
+|The moment I send one into the Tops, Benny will know I'm on to him.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D989_3.ogg}}-->
+|{{linkable|264}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic124}}
+|rowspan="3" |How did you establish New Vegas?{Before chip turned in.}
+|Neutral 50
+|We can discuss this in greater detail at another time. Suffice it to say that when my Securitrons detected NCR scouts at Hoover Dam, I took action.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98F_1.ogg}}-->
+|{{linkable|265}}
+
+|-
+|Neutral 50
+|I recruited a tribal force to supplement my Securitrons and renovated the Strip just in time to welcome the NCR as it marched into the region.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98F_2.ogg}}-->
+|{{linkable|266}}
+
+|-
+|Neutral 50
+|Instead of war, a treaty was negotiated. And the money started to pour in.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0011D98F_3.ogg}}-->
+|{{linkable|267}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic128}}
+|Like I said, I'll think about it.
+|Neutral 50
+|You're making me question your usefulness, you realize.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F55B_1.ogg}}-->
+|{{linkable|268}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic131}}
+|rowspan="3" |Whatever happens, happens.
+|Neutral 50
+|Success depends on forethought, dispassionate calculation of probabilites, accounting for every stray variable.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F564_1.ogg}}-->
+|{{linkable|269}}
+
+|-
+|Neutral 50
+|Your history of aggression towards the NCR has rendered you useless in this concern, unable to influence the outcome of events.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F564_2.ogg}}-->
+|{{linkable|270}}
+
+|-
+|Neutral 50
+|Consequently, I have to "wait and see" what happens. It's... grotesque.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F564_3.ogg}}-->
+|{{linkable|271}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic136}}
+|Here, take it. <Give the Platinum Chip to Mr. House.>
+|Neutral 50
+|Well enough. We can put the past behind us, I think.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120EFF_1.ogg}}-->
+|{{linkable|272}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic137}}
+|I'm still not giving you the Chip.
+|Neutral 50
+|''{exasperated sigh}'' Then this is a waste of time.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F01_1.ogg}}-->
+|{{linkable|273}}
+
+|-
+|rowspan="5" |{{linkable|VDialogueMrHouseMrHouseTopic138}}
+|rowspan="2" |What happens next?
+|Neutral 50
+|''{FORT SECS NO}'' A great deal shall be happening - a cascade of events, with you taking a central role.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F08_1.ogg}}-->
+|{{linkable|274}}
+
+|-
+|Neutral 50
+|At the moment, however, all you need to do is take the elevator all the way down to the bottom level. You'll understand soon enough...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F08_2.ogg}}-->
+|{{linkable|275}}
+
+|-
+|rowspan="3" |What happens next?
+|Neutral 50
+|''{FORT SECS UP}'' A great deal shall be happening - a cascade of events, with you taking a central role.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B644_1.ogg}}-->
+|{{linkable|276}}
+
+|-
+|Neutral 50
+|At the moment, however, all you need to do is take the elevator all the way down to the bottom level.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B644_2.ogg}}-->
+|{{linkable|277}}
+
+|-
+|Neutral 50
+|What you see there will help you understand the significance of what you accomplished at the Fort.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B644_3.ogg}}-->
+|{{linkable|278}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic139}}
+|What does the Chip do, exactly?
+|Neutral 50
+|''{FORT SECS UP}'' Yes, so far as you've seen, all it does is change the picture on the Securitrons' face screens from policemen to soldiers. But as you'll see...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B659_3.ogg}}-->
+|{{linkable|279}}
+
+|-
+|rowspan="2" |What does the Chip do, exactly?
+|Neutral 50
+|Some things are more easily shown than told. Take the elevator all the way down to the bottom level, and you'll see what I mean.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F03_1.ogg}}-->
+|{{linkable|280}}
+
+|-
+|Neutral 50
+|Don't worry, you'll like what you see. We have much to accomplish, you and I...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F03_2.ogg}}-->
+|{{linkable|281}}
+
+|-
+|rowspan="5" |{{linkable|VDialogueMrHouseMrHouseTopic140}}
+|rowspan="2" |I'll be on my way, then...
+|Neutral 50
+|''{FORT SECS UP}'' I must insist that you stay long for me to show you that the Platinum Chip does more than change the pictures on the Securitrons' face screens.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B65C_1.ogg}}-->
+|{{linkable|282}}
+
+|-
+|Neutral 50
+|Events of great import are about to unfold, with you taking a central role. To get started, all you need do is take the elevator all the way down...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B65C_2.ogg}}-->
+|{{linkable|283}}
+
+|-
+|rowspan="3" |I'll be on my way, then...
+|Neutral 50
+|I must insist that you stay long for me to show you what the Chip does. I promise you'll like what you see...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F00_1.ogg}}-->
+|{{linkable|284}}
+
+|-
+|Neutral 50
+|Events of great import are about to unfold, with you taking a central role.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F00_2.ogg}}-->
+|{{linkable|285}}
+
+|-
+|Neutral 50
+|To get started, all you need to do is take the elevator all the way down to the bottom level...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F00_3.ogg}}-->
+|{{linkable|286}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic142}}
+|rowspan="3" |Not interested.
+|Neutral 50
+|Not interested? ''{louder}'' Not interested?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014D2CD_1.ogg}}-->
+|{{linkable|287}}
+
+|-
+|Neutral 50
+|You have an interest in this even if you're too stupid to know it. If you have an interest in breathing, you have an interest in this.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014D2CD_2.ogg}}-->
+|{{linkable|288}}
+
+|-
+|Neutral 50
+|Return to the Fort and do whatever it takes to recover the Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014D2CD_3.ogg}}-->
+|{{linkable|289}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic143}}
+|rowspan="3" |Why show your hand like that? Now your enemies know what you're up to.
+|Neutral 50
+|I'm surprised you can still underestimate me after everything you've seen.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F05_1.ogg}}-->
+|{{linkable|290}}
+
+|-
+|Neutral 50
+|I haven't shown my hand - I've shown one card. I've given my enemies a single, provocative datum upon which to fixate.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F05_2.ogg}}-->
+|{{linkable|291}}
+
+|-
+|Neutral 50
+|They have no idea what other cards I'm holding. It's a strong hand, believe me - I dealt it to myself.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F05_3.ogg}}-->
+|{{linkable|292}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic144}}
+|rowspan="2" |You think your Securitrons can defeat Caesar's Legion *and* the NCR?
+|Neutral 50
+|Why would I want to go to war against the NCR? They're my best customers.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F17_2.ogg}}-->
+|{{linkable|293}}
+
+|-
+|Neutral 50
+|If their leaders weren't scheming to steal Vegas out from under me, I'd have no troubles with the NCR at all.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F17_3.ogg}}-->
+|{{linkable|294}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic145}}
+|I'll be on my way, Mr. House.
+|Neutral 50
+|No no no, you'll want to hear this out...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F0B_1.ogg}}-->
+|{{linkable|295}}
+
+|-
+|I'll be on my way, Mr. House.
+|Neutral 50
+|Disappointing. In the extreme.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599CB_1.ogg}}-->
+|{{linkable|296}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic146}}
+|I'm listening.
+|Neutral 50
+|The next step will require you to infiltrate Caesar's camp at Fortification Hill.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F07_1.ogg}}-->
+|{{linkable|297}}
+
+|-
+|I'm listening.
+|Neutral 50
+|You'll have to return to Caesar's camp at Fortification Hill.''{Player got Chip at CL Fort, didn't activate bunker army}'' <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A5_1.ogg}}-->
+|{{linkable|298}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic148}}
+|The Chip's been delivered. We're through.
+|Neutral 50
+|Do you have any idea how prodigious is the opportunity you're casting aside here?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F09_1.ogg}}-->
+|{{linkable|299}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic154}}
+|rowspan="2" |I'll do as you ask.
+|Neutral 50
+|Here, take the Platinum Chip again. You will need it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A1_1.ogg}}-->
+|{{linkable|300}}
+
+|-
+|Neutral 50
+|Upon arrival at the Fort, it's likely that you'll be searched and the Chip taken from you. Don't worry - it will come back to you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A1_2.ogg}}-->
+|{{linkable|301}}
+
+|-
+|I'll do as you ask.
+|Neutral 50
+|I expect that if Benny doesn't have the Chip, Caesar will make sure you get it. More on that later. Be off.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155104_1.ogg}}-->
+|{{linkable|302}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic155}}
+|I'm still looking into it.
+|Neutral 50
+|Then look harder.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418B4_1.ogg}}-->
+|{{linkable|303}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic157}}
+|rowspan="2" |I've found evidence of an Omerta plot.
+|Neutral 50
+|I don't employ you to uncover evidence. This isn't a court of law.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD4_1.ogg}}-->
+|{{linkable|304}}
+
+|-
+|Neutral 50
+|If the Omertas pose a threat to the physical or economic security of the Vegas Strip, I want you to do whatever it takes to neutralize that threat.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD4_2.ogg}}-->
+|{{linkable|305}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic159}}
+|What's inside the hatch?
+|Neutral 50
+|Something very important. I wouldn't want to spoil the surprise - so don't bother asking.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A0_1.ogg}}-->
+|{{linkable|306}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic162}}
+|The Omertas who were conspiring against you are dead.
+|Neutral 50
+|Well done. They won't be causing any trouble, then.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014188E_1.ogg}}-->
+|{{linkable|307}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic163}}
+|rowspan="2" |What's the next step?
+|Neutral 50
+|The Legion has nothing left to wait for. Their assault on the dam could begin at any moment.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D89_1.ogg}}-->
+|{{linkable|308}}
+
+|-
+|Neutral 50
+|Before that happens, I'll ask you to complete one other task. It may seem trivial, but that's far from the case.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D89_2.ogg}}-->
+|{{linkable|309}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic167}}
+|I've secured their loyalty. They'll do as I say.
+|Neutral 50
+|Well done. The Boomers' firepower may prove an advantage when the battle for Hoover Dam comes around.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014188F_1.ogg}}-->
+|{{linkable|310}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic168}}
+|rowspan="2" |The Boomers and I don't get along. I'd rather keep my distance.
+|Neutral 50
+|It seems diplomacy is not your forte.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418B7_1.ogg}}-->
+|{{linkable|311}}
+
+|-
+|Neutral 50
+|Given the strength of your past performance, I think we can let this go without further comment. I'm pulling you on to a new assignment.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418B7_2.ogg}}-->
+|{{linkable|312}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic173}}
+|The Omertas had it coming.
+|Neutral 50
+|''{dry}'' An opinion you expressed with supreme subtlety and finesse. Moving on...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FE_1.ogg}}-->
+|{{linkable|313}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic175}}
+|rowspan="2" |I had to wipe out their leadership.
+|Neutral 50
+|There's more than one way to skin a cat, as the saying goes. ''{beat}'' Or ''{emphasis}'' went, that is - cats being extinct.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014189F_1.ogg}}-->
+|{{linkable|314}}
+
+|-
+|Neutral 50
+|I don't promote political assassination as a first option, but it has a long and storied history. I'll consider the Boomers neutralized.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014189F_2.ogg}}-->
+|{{linkable|315}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic177}}
+|rowspan="2" |I'm surprised you haven't asked what became of Benny.
+|Neutral 50
+|That's because he ceased to be relevant when you recovered the Platinum Chip. Revenge doesn't interest me, progress does.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F16_1.ogg}}-->
+|{{linkable|316}}
+
+|-
+|Neutral 50
+|Sorry to deny you a moment of primate triumph, but you'll have to go elsewhere to sound your barbaric yawp.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00120F16_2.ogg}}-->
+|{{linkable|317}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic181}}
+|I'll be on my way.
+|Neutral 50
+|''{cross}'' There's a job that needs doing here, and I'm assigning it to you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015510D_1.ogg}}-->
+|{{linkable|318}}
+
+|-
+|I'll be on my way.
+|Neutral 50
+|''{sarcastic}'' Marvellous work ethic, bravo.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015510E_1.ogg}}-->
+|{{linkable|319}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic182}}
+|rowspan="3" |Vouche for me? How?
+|Neutral 50
+|I'll send a Securitron ahead to meet with the NCR at the security checkpoint and get things started.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F55F_1.ogg}}-->
+|{{linkable|320}}
+
+|-
+|Neutral 50
+|Once you get there ask for Ranger Grant. I've used roaming Securitrons to feed him useful information in the past.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F55F_2.ogg}}-->
+|{{linkable|321}}
+
+|-
+|Neutral 50
+|If I tell him we've heard of a Legion assassination plot, I believe he'll let you investigate.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F55F_3.ogg}}-->
+|{{linkable|322}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic185}}
+|rowspan="2" |The Brotherhood of Steel has been wiped out.
+|Neutral 50
+|Singlehandedly destroying a Brotherhood of Steel bunker is quite an accomplishment. Platoons of NCR troops have died, trying to do the same.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D8D_1.ogg}}-->
+|{{linkable|323}}
+
+|-
+|Neutral 50
+|This welcome news comes just in time, as events in the wider world are coming to a head...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D8D_2.ogg}}-->
+|{{linkable|324}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic188}}
+|I think I'll sit this one out.
+|Neutral 50
+|This is not an optional assignment. Kimball may be a grandstanding boor, but I want him protected.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014F566_1.ogg}}-->
+|{{linkable|325}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic193}}
+|Like I said, I'm not interested.
+|Neutral 50
+|I'll give you time to think over the consequences of what you're saying. I urge you to reconsider.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001228A4_1.ogg}}-->
+|{{linkable|326}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic199}}
+|Seriously, I'm not interested.
+|Neutral 50
+|Until you do this, consider yourself suspended... without pay.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550EB_2.ogg}}-->
+|{{linkable|327}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic203}}
+|rowspan="3" |When the Legion assaults the dam, the Brotherhood will attack the NCR and weaken them.
+|Neutral 50
+|Not surprising. Also not acceptable.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A3_1.ogg}}-->
+|{{linkable|328}}
+
+|-
+|Neutral 50
+|I didn't ask you to tell me what they were planning, I asked you to kill them. This was a waste of time.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A3_3.ogg}}-->
+|{{linkable|329}}
+
+|-
+|Neutral 50
+|Go back to the bunker and destroy it. My directions have been clear from the start.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A3_2.ogg}}-->
+|{{linkable|330}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic204}}
+|I'm done working for you.
+|Neutral 50
+|''{not buying it}'' This is no time to be droll...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00142546_1.ogg}}-->
+|{{linkable|331}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic206}}
+|It was an accident.
+|Neutral 50
+|Your "accident" has jeopardized the success of this entire concern.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00141891_1.ogg}}-->
+|{{linkable|332}}
+
+|-
+|rowspan="2" |It was an accident.
+|Neutral 50
+|Up to this point, your efforts yielded near-perfect results. But now I'm forced to fumble in the dark - to gamble.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FB_1.ogg}}-->
+|{{linkable|333}}
+
+|-
+|Neutral 50
+|Light must be brought to this darkness.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FB_2.ogg}}-->
+|{{linkable|334}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic207}}
+|My only regret is that he got away.
+|Neutral 50
+|Your impulsivity has jeopardized the success of this entire concern!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418BF_1.ogg}}-->
+|{{linkable|335}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic208}}
+|I did my best, but the Legion did better.
+|Neutral 50
+|Your incompetence has jeopardized the success of this entire concern!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014189C_1.ogg}}-->
+|{{linkable|336}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic210}}
+|So Kimball's dead. So what?
+|Neutral 50
+|Every step of my plan has been precisely calculated and was, until now, well-executed.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AD_1.ogg}}-->
+|{{linkable|337}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic212}}
+|rowspan="2" |What's the deal with the snowglobe collection?
+|Neutral 50
+|What of it? I enjoy them. There's something about a little diorama set inside a glass dome that I... ''{beat}'' find pleasing.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015946B_1.ogg}}-->
+|{{linkable|338}}
+
+|-
+|Neutral 50
+|If you run across any out in the wastes, turn them in to Jane. She'll compensate you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015946B_2.ogg}}-->
+|{{linkable|339}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic213}}
+|No thanks.
+|Neutral 50
+|I much prefer working with robots...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015510C_1.ogg}}-->
+|{{linkable|340}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic214}}
+|I may know something about that...
+|Neutral 50
+|You'll have to be more specific.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FD_1.ogg}}-->
+|{{linkable|341}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic216}}
+|When the Legion assaults Hoover Dam, the Omertas are going to massacre everyone on the Strip.
+|Neutral 50
+|''{shocked at magnitude of Omerta plot}'' And how do you know this?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F3_1.ogg}}-->
+|{{linkable|342}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic218}}
+|I kind of helped them perfect their plan...
+|Neutral 50
+|''{quiet outrage}'' I see. So where does that put us?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155108_1.ogg}}-->
+|{{linkable|343}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic220}}
+|rowspan="2" |You want me to kill Caesar?
+|Neutral 50
+|Absolutely not! Caesar is of great use to me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001429F1_2.ogg}}-->
+|{{linkable|344}}
+
+|-
+|Neutral 50
+|I don't want you harming a hair on that man's head - assuming you can find one.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001429F1_3.ogg}}-->
+|{{linkable|345}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic221}}<br />''<Speech to lie to Mr. House about RACKET involvement.>''
+|I infiltrated the Omertas in order to gain their confidence.
+|Neutral 50
+|[SUCCEEDED] In that case, I commend you for your initiative. What do you recommend for next steps?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550ED_1.ogg}}-->
+|{{linkable|346}}
+
+|-
+|Well, thing is... I, uh... they tried to involve me...
+|Neutral 50
+|[FAILED]''{quiet rage}'' And you assisted them? That's what you mean to say, isn't it?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550EE_1.ogg}}-->
+|{{linkable|347}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic223}}
+|I have some questions to ask first...
+|Neutral 50
+|I'll be happy to satisfy your every curiosity once the Platinum Chip has been delivered.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D93_1.ogg}}-->
+|{{linkable|348}}
+
+|-
+|I have some questions to ask first...
+|Neutral 50
+|This is not the time for Q&A. Kindly hand over the Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB9_1.ogg}}-->
+|{{linkable|349}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic224}}
+|Not so fast, Mr. House. We need to discuss payment.
+|Neutral 50
+|Fine - give me the Chip, and I'll pay you four times the delivery bonus stipulated in your contract. How's that?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00126D88_2.ogg}}-->
+|{{linkable|350}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic227}}
+|Goodbye.
+|Neutral 50
+|Goodbye.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00137B11_1.ogg}}-->
+|{{linkable|351}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic230}}
+|rowspan="4" |What's the next step?
+|Neutral 50
+|Outside New Vegas, at what was once called Nellis Air Force Base, resides an unusual tribe known as the Boomers.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AF_3.ogg}}-->
+|{{linkable|352}}
+
+|-
+|Neutral 50
+|They are, shall we say, ''{understating}'' aggressively reclusive? They have several howitzers they fire at anyone who dares approach the base.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AF_4.ogg}}-->
+|{{linkable|353}}
+
+|-
+|Neutral 50
+|Artillery of this sort has a range of several miles. If it's going to fire on Hoover Dam, I want it firing at my targets.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AF_5.ogg}}-->
+|{{linkable|354}}
+
+|-
+|Neutral 50
+|If not, then I want to make sure that the Boomers don't sign similar treaties to fire their guns in support of the NCR or Caesar's Legion.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AF_6.ogg}}-->
+|{{linkable|355}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic231}}
+|I've done enough work for you.
+|Neutral 50
+|I offer many benefits, but vacation time isn't one of them.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00141892_1.ogg}}-->
+|{{linkable|356}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic232}}
+|I've come here to kill you, Mr. House. <Attack Mr. House.>
+|Neutral 50
+|''{first Benny, now the player}'' Why is good help so impossible to find?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418BE_1.ogg}}-->
+|{{linkable|357}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic233}}
+|rowspan="2" |I'll make sure they support the right side.
+|Neutral 50
+|Use extreme caution when approaching the base. Their firepower is... considerable.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AB_2.ogg}}-->
+|{{linkable|358}}
+
+|-
+|Neutral 50
+|Recently, one of my roaming Securitrons observed a man near the base studying the pattern of its artillery fire. Maybe he's learned something.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AB_4.ogg}}-->
+|{{linkable|359}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic238}}
+|rowspan="2" |If I want more work, I'll come see you.
+|Neutral 50
+|You laid the foundation for my victory, so fine - I'll permit some ''{beat, begrudging}'' latitude in how you schedule your work.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014189B_1.ogg}}-->
+|{{linkable|360}}
+
+|-
+|Neutral 50
+|You're welcome.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014189B_2.ogg}}-->
+|{{linkable|361}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic242}}
+|rowspan="3" |I'll check into the Omertas.
+|Neutral 50
+|The Omertas are fanatically loyal to each other. Still, among any group, one can find the occasional degenerate.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD3_1.ogg}}-->
+|{{linkable|362}}
+
+|-
+|Neutral 50
+|Gomorrah's receptionist happens to be one. For years she passed on whispers of what was taking place at the casino, in exchange for payment.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD3_2.ogg}}-->
+|{{linkable|363}}
+
+|-
+|Neutral 50
+|A few months ago, she clammed up. Odds are she's scared, but I've had no way of approaching her. Start with her.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD3_3.ogg}}-->
+|{{linkable|364}}
+
+|-
+|I'll check into the Omertas.
+|Neutral 50
+|The print-out I've given you lists every lead I've been able to uncover. See what you can find out.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418B3_1.ogg}}-->
+|{{linkable|365}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic245}}
+|I'm going to kill you now, Mr. House.
+|Neutral 50
+|After all that we've accomplished?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00141890_1.ogg}}-->
+|{{linkable|366}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic246}}
+|The Omertas were clever, but no match for me.
+|Neutral 50
+|Arrogance was their undoing. ''{referring to the player}'' There might be a lesson in that. But moving on...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00141895_1.ogg}}-->
+|{{linkable|367}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic248}}
+|It's a good thing we stopped the Omertas in time.
+|Neutral 50
+|Indeed. Moving on...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014189A_1.ogg}}-->
+|{{linkable|368}}
+
+|-
+|rowspan="7" |{{linkable|VDialogueMrHouseMrHouseTopic254}}
+|rowspan="3" |What makes you think Caesar gave me the Chip?
+|Neutral 50
+|''{sigh of impatience - oh, the burden of intelligence}'' The Platinum Chip unlocks this bunker. Hence, you have it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B661_3.ogg}}-->
+|{{linkable|369}}
+
+|-
+|Neutral 50
+|Hence, Benny was captured or killed - possibly by you, but by my estimates, far more probably by Caesar's Legion. Hence, Caesar gave you the Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B661_4.ogg}}-->
+|{{linkable|370}}
+
+|-
+|Neutral 50
+|Hence, Caesar wants you to destroy whatever you find in this bunker.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B661_1.ogg}}-->
+|{{linkable|371}}
+
+|-
+|rowspan="3" |What makes you think Caesar gave me the Chip?
+|Neutral 50
+|''{sigh of impatience - oh, the burdens of intelligence}'' That you were searched very thoroughly when you arrived at the Fort is a certainty. And as the Chip is a little too large to be ''{beat, implying hiding it up rectum}'' secreted away...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B662_3.ogg}}-->
+|{{linkable|372}}
+
+|-
+|Neutral 50
+|I also regard it a certainty that the Chip was discovered, taken from you, and given to Caesar - who returned it to you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B662_4.ogg}}-->
+|{{linkable|373}}
+
+|-
+|Neutral 50
+|Two plus two equaling four, Caesar wants you to destroy whatever you find in this bunker.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B662_5.ogg}}-->
+|{{linkable|374}}
+
+|-
+|What makes you think Caesar gave me the Chip?
+|Neutral 50
+|But that's not going to happen, because ''{confident, not bossy}'' you're going to work for me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B663_4.ogg}}-->
+|{{linkable|375}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic255}}
+|You wanted me to come down here?
+|Neutral 50
+|''{are you dense?}'' That's rather obvious, isn't it?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F5_1.ogg}}-->
+|{{linkable|376}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic256}}
+|rowspan="2" |Who are you, exactly?
+|Neutral 50
+|''{don't play dumb}'' Surely you know that I am Robert Edwin House, President, CEO, and sole proprietor of the New Vegas Strip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B641_2.ogg}}-->
+|{{linkable|377}}
+
+|-
+|Neutral 50
+|I oversaw the city's renovations starting from 2274 onward. The Three Families are my employees.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B641_3.ogg}}-->
+|{{linkable|378}}
+
+|-
+|rowspan="16" |{{linkable|VDialogueMrHouseMrHouseTopic259}}
+|rowspan="2" |What was Vegas like before the war?
+|Neutral 50
+|It was a place of splendor. As magnificent as today's Strip may seem, it's but a shadow of the neon paradise that was Las Vegas.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EACE_1.ogg}}-->
+|{{linkable|379}}
+
+|-
+|Neutral 50
+|I grew up not far from here, and though I traveled the old world extensively, I never found another place like it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EACE_2.ogg}}-->
+|{{linkable|380}}
+
+|-
+|rowspan="3" |You say that you saved Las Vegas. How?
+|Neutral 50
+|By 2065 I deemed it a mathematical certainty that an atomic war would devastate the Earth within 15 years. Every projection I ran confirmed it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EACF_1.ogg}}-->
+|{{linkable|381}}
+
+|-
+|Neutral 50
+|I knew I couldn't "save the world," nor did I care to. But I could save Vegas, and in the process, perhaps, save mankind.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EACF_2.ogg}}-->
+|{{linkable|382}}
+
+|-
+|Neutral 50
+|I set to work immediately. I thought I had plenty of time to prepare. As it turned out, I was 20 hours short.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EACF_3.ogg}}-->
+|{{linkable|383}}
+
+|-
+|rowspan="4" |What preparations did you make to save Las Vegas?
+|Neutral 50
+|On the day of the Great War, 77 atomic warheads targeted Las Vegas and its surrounding areas.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD0_1.ogg}}-->
+|{{linkable|384}}
+
+|-
+|Neutral 50
+|My networked mainframes were able to predict and force-transmit disarm code subsets to 59 warheads, neutralizing them before impact.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD0_2.ogg}}-->
+|{{linkable|385}}
+
+|-
+|Neutral 50
+|Laser cannons mounted on the roof of the Lucky 38 destroyed another 9 warheads. The rest got through, though none hit the city itself.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD0_3.ogg}}-->
+|{{linkable|386}}
+
+|-
+|Neutral 50
+|A sub-optimal performance, admittedly. If only the Platinum Chip had arrived a day sooner...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD0_4.ogg}}-->
+|{{linkable|387}}
+
+|-
+|rowspan="4" |Why didn't the Platinum Chip arrive on time?
+|Neutral 50
+|The Platinum Chip was printed in Sunnyvale, California on October 22, 2077 - the day before the Great War.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD1_1.ogg}}-->
+|{{linkable|388}}
+
+|-
+|Neutral 50
+|It was to have been delivered by courier the following afternoon... but by then, the world had ended.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD1_2.ogg}}-->
+|{{linkable|389}}
+
+|-
+|Neutral 50
+|The Chip contained vital software upgrades, but not just for my Securitrons. Every aspect of the missile defense grid would have been upgraded, too.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD1_3.ogg}}-->
+|{{linkable|390}}
+
+|-
+|Neutral 50
+|Given that I had to make do with buggy software, the outcome could have been worse. I nearly died as it was.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD1_4.ogg}}-->
+|{{linkable|391}}
+
+|-
+|rowspan="3" |How did you nearly die, defending Vegas?
+|Neutral 50
+|Software glitches set off a cascade of system crashes. I had to take the Lucky 38's reactor offline, lest it melt down.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001558D9_1.ogg}}-->
+|{{linkable|392}}
+
+|-
+|Neutral 50
+|For nearly five years I battled power outages and more system crashes until I finally managed to reboot my data core with an older version of the OS.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001558D9_2.ogg}}-->
+|{{linkable|393}}
+
+|-
+|Neutral 50
+|I spent the next few decades in a veritable coma. But I survived, obviously - and eventually thrived.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001558D9_3.ogg}}-->
+|{{linkable|394}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic262}}
+|What is this place?
+|Neutral 50
+|''{impatient to make progress}'' It's a facility I built many years before you were born. You might think of it as a kind of barracks. You'll understand soon enough.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B655_2.ogg}}-->
+|{{linkable|395}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic263}}
+|What is this place?
+|Neutral 50
+|It's a facility I built many years before you were born. You might think of it as a barracks. You'll understand soon enough.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B63F_1.ogg}}-->
+|{{linkable|396}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic265}}
+|rowspan="2" |Caesar wants me to destroy this place.
+|Neutral 50
+|Was that meant to be a shocking revelation? Of course Caesar wants it destroyed - he's afraid of what the bunker might hold, and rightly so.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B65B_1.ogg}}-->
+|{{linkable|397}}
+
+|-
+|Neutral 50
+|But you're not going to do that. You're going to do the smart thing, and work for me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B65B_2.ogg}}-->
+|{{linkable|398}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic267}}
+|Maybe I should destroy everything down here.
+|Neutral 50
+|''{steely}'' I don't respond well to threats. ''{moving on}'' Now, where were we...?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B64B_1.ogg}}-->
+|{{linkable|399}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic268}}<br />''<Use Barter to negotiate for higher reward.>''
+|This work sounds important - and expensive.
+|Neutral 50
+|[SUCCEEDED] Fine, you'll receive a nice bonus when the work is done. And speaking of getting it done...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B64F_1.ogg}}-->
+|{{linkable|400}}
+
+|-
+|I could use a raise!
+|Neutral 50
+|[FAILED] You signed a contract to deliver the Platinum Chip, and you'll be paid when the delivery is made.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B650_1.ogg}}-->
+|{{linkable|401}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic269}}
+|I'll upload the data, as you ask.
+|Neutral 50
+|Good. I won't hold you up any longer.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B657_1.ogg}}-->
+|{{linkable|402}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic272}}
+|We'll see what happens.
+|Neutral 50
+|I like to think you have enough sense to do the right thing. The rewards for doing so are immense... as are the punishments for not doing so.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B64A_1.ogg}}-->
+|{{linkable|403}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic274}}
+|rowspan="2" |The Legion took it from me at the Fort.
+|Neutral 50
+|So what are you doing here? Return to the Fort at once.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B653_1.ogg}}-->
+|{{linkable|404}}
+
+|-
+|Neutral 50
+|Recover the Platinum Chip. Once you've entered the bunker hidden beneath the weather station, you'll receive further instructions.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B653_2.ogg}}-->
+|{{linkable|405}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic275}}
+|<Lie> I'm not sure what happened to it.
+|Neutral 50
+|Are you a child? The Platinum Chip was taken from you, obviously.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B652_1.ogg}}-->
+|{{linkable|406}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic276}}
+|I'll do as you say.
+|Neutral 50
+|That would make for a welcome change.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014D2CE_1.ogg}}-->
+|{{linkable|407}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic277}}
+|rowspan="2" |You're asking me to commit suicide. The Legion will attack me on sight.
+|Neutral 50
+|Then gather together the firepower or explosives or whatever else you need and improvise.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014D2CF_1.ogg}}-->
+|{{linkable|408}}
+
+|-
+|Neutral 50
+|I don't care if you have to kill every Legionary at the Fort. Get the job done.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014D2CF_2.ogg}}-->
+|{{linkable|409}}
+
+|-
+|rowspan="4" |{{linkable|VDialogueMrHouseMrHouseTopic278}}
+|rowspan="4" |You do know Caesar is dead, don't you?
+|Neutral 50
+|By my calculations, his death will affect the shape of the battle for Hoover Dam minimally, if at all.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015946C_1.ogg}}-->
+|{{linkable|410}}
+
+|-
+|Neutral 50
+|The Legion's aggression will outlive Caesar. Indeed, they'll try to take the dam as a tribute to his memory.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015946C_2.ogg}}-->
+|{{linkable|411}}
+
+|-
+|Neutral 50
+|Given a year, they'd have him deified - but by then the Legion will be breaking down, riven by internal conflicts, a monster consuming itself.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015946C_3.ogg}}-->
+|{{linkable|412}}
+
+|-
+|Neutral 50
+|It's irrelevant. In the short term, the Legion is still monster enough that defeating it will make me look powerful indeed.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015946C_4.ogg}}-->
+|{{linkable|413}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic279}}
+|rowspan="2" |Where does New Vegas get all its electricity?
+|Neutral 50
+|''{stating the obvious}'' Hoover Dam, of course. A hydroelectric dam?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159477_1.ogg}}-->
+|{{linkable|414}}
+
+|-
+|Neutral 50
+|The NCR had it up and running at 50% capacity within a year of occupying the dam. By treaty, New Vegas receives 5% of its output - more than enough.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159477_2.ogg}}-->
+|{{linkable|415}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic280}}
+|I'm still working on it.
+|Neutral 50
+|I'll expect to see some tangible progress before long, then.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAA_1.ogg}}-->
+|{{linkable|416}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic283}}
+|Why is the terminal on the North wall off-limits?
+|Neutral 50
+|I recommend following the Securitron's instructions. Its programming is... ''{beat}'' strict, and I don't have time to change it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159478_1.ogg}}-->
+|{{linkable|417}}
+
+|-
+|rowspan="7" |{{linkable|VDialogueMrHouseMrHouseTopic285}}<br />''<WGS cannibalism>''
+|Did you know I killed some White Gloves who were eating their customers?
+|Neutral 50
+|Cannibalism was strictly forbidden in their contract. If some of them broke that stricture, they deserved whatever punishment you dealt them.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159467_1.ogg}}-->
+|{{linkable|418}}
+
+|-
+|rowspan="3" |Did you know some of the White Gloves are... eating people again?
+|Neutral 50
+|''{perturbed}'' No, I was not aware of this.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159468_1.ogg}}-->
+|{{linkable|419}}
+
+|-
+|Neutral 50
+|Is it really so hard ''{emphasis}'' not to engage in cannibalism? My goodness...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159468_2.ogg}}-->
+|{{linkable|420}}
+
+|-
+|Neutral 50
+|It's a violation of their contract. I authorize you to deal with them in any way you see fit.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159468_3.ogg}}-->
+|{{linkable|421}}
+
+|-
+|rowspan="3" |Were you aware that the White Glove Society used to be cannibals?
+|Neutral 50
+|''{not going to deny it}'' Yes, of course. But refraining from those "dietary practices" is a primary requirement of their contract.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159469_1.ogg}}-->
+|{{linkable|422}}
+
+|-
+|Neutral 50
+|They've been good to their word. Put together one hell of a resort hotel, too.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159469_2.ogg}}-->
+|{{linkable|423}}
+
+|-
+|Neutral 50
+|From what I hear, I'd want to eat at the Gourmand every night... if I were ambulatory. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159469_3.ogg}}-->
+|{{linkable|424}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic286}}
+|Goodbye.
+|Neutral 50
+|Goodbye? Is that some kind of joke? You barely understand what I want you to accomplish down there.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B651_1.ogg}}-->
+|{{linkable|425}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic290}}
+|rowspan="2" |Goodbye means goodbye.
+|Neutral 50
+|I've spent too many years waiting for this moment to see it fumbled by an insubordinate contractor.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B642_2.ogg}}-->
+|{{linkable|426}}
+
+|-
+|Neutral 50
+|I can't reach through this monitor and compell you to follow instructions, but know this - if you disappoint me, you will pay for it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B642_3.ogg}}-->
+|{{linkable|427}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic291}}
+|rowspan="2" |What are you doing here?
+|Neutral 50
+|It is obvious to you that I built this place? The Platinum Chip opened it, after all?''{sigh - the burdens of intelligence}'' <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B649_1.ogg}}-->
+|{{linkable|428}}
+
+|-
+|Neutral 50
+|In any case, you're here. So let's get to it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B649_2.ogg}}-->
+|{{linkable|429}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic294}}
+|What will you do with your Securitrons?
+|Neutral 50
+|My army will do what an army does best - defend territory from invaders... and maintain order.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B643_2.ogg}}-->
+|{{linkable|430}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic295}}
+|rowspan="2" |What was that you said about security systems?
+|Neutral 50
+|The same equipment failure that prevents me from remotely operating this facility seems to have activated its security robots and turrets.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B648_1.ogg}}-->
+|{{linkable|431}}
+
+|-
+|Neutral 50
+|There's a security room near the base of the stairs... perhaps you can deactivate them yourself.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B648_3.ogg}}-->
+|{{linkable|432}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic297}}
+|rowspan="2" |I'm going to do as Caesar asks and blow everything up down here.
+|Neutral 50
+|Listen to me, very carefully. I've waited too long for this moment for you to go fouling it up on a lark.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B654_2.ogg}}-->
+|{{linkable|433}}
+
+|-
+|Neutral 50
+|Do as I say, and your rewards will be immense. Thwart me, and your punishment will become the purpose of my existence.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B654_3.ogg}}-->
+|{{linkable|434}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic300}}
+|Nope, I'm going to blow it all up anyways.
+|Neutral 50
+|Then there will be no safe haven for you.''{monitor goes dark}'' <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B658_1.ogg}}-->
+|{{linkable|435}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic301}}
+|rowspan="3" |Caesar will kill me unless he believes I blew something up down here.
+|Neutral 50
+|I see - you're in a predicament.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B656_3.ogg}}-->
+|{{linkable|436}}
+
+|-
+|Neutral 50
+|Just off the turbine room down below are three power regulators. It's a redundant system - only one is needed.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B656_4.ogg}}-->
+|{{linkable|437}}
+
+|-
+|Neutral 50
+|Go ahead and destroy one. The explosion will be large enough to be heard and felt aboveground.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B656_5.ogg}}-->
+|{{linkable|438}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic302}}
+|What if I destroy all three?
+|Neutral 50
+|''{lying}'' The bunker will be destroyed, and you'll die instantly.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014B64E_1.ogg}}-->
+|{{linkable|439}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic304}}
+|Who are you to tell me what to do?
+|Neutral 50
+|I'm the person who will pay you when you complete the delivery contract you signed. Now go get the Chip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAD_1.ogg}}-->
+|{{linkable|440}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic313}}
+|I'll go get the Platinum Chip.
+|Neutral 50
+|''{stating the obvious}'' Excellent idea.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB5_1.ogg}}-->
+|{{linkable|441}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic314}}
+|Goodbye.
+|Neutral 50
+|By "goodbye," I assume you mean to say that you can't talk right now because you need to go get the Platinum Chip off Benny's body.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB1_1.ogg}}-->
+|{{linkable|442}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic315}}
+|I'd like to ask some questions first...
+|Neutral 50
+|There will time for questions and answers once you've delivered the Chip. Until then, you'll have to tolerate your ignorance... just as I do.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EADB_1.ogg}}-->
+|{{linkable|443}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic316}}
+|rowspan="2" |Where do you think Benny's gone?
+|Neutral 50
+|His destination is hardly a mystery. It's a near certainty that he's making his way for Caesar's camp, at Fortification Hill.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC0_1.ogg}}-->
+|{{linkable|444}}
+
+|-
+|Neutral 50
+|It's one of just two places on Earth that have the hardware necessary to read the Platinum Chip  - the Lucky 38 is the other, of course.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC0_2.ogg}}-->
+|{{linkable|445}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic317}}
+|rowspan="2" |He set me up for an ambush!
+|Neutral 50
+|And whose idea was it to offer yourself up as a sacrificial lamb? Really, what did you expect?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAE_1.ogg}}-->
+|{{linkable|446}}
+
+|-
+|Neutral 50
+|Are you going to keep giving him opportunities to kill you? It's becoming a hobby of his.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAE_2.ogg}}-->
+|{{linkable|447}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic318}}
+|rowspan="3" |Were you aware that he hijacked a Securitron and used it to infiltrate your network?
+|Neutral 50
+|I suspected he'd found a way to access my encrypted databases, but well - this explains it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB6_3.ogg}}-->
+|{{linkable|448}}
+
+|-
+|Neutral 50
+|That would be how he learned of the Platinum Chip in the first place... not to mention where to intercept you, on your way in.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB6_2.ogg}}-->
+|{{linkable|449}}
+
+|-
+|Neutral 50
+|Highly resourceful, Benny. He would've made a fine agent, had he stayed loyal. It's fortunate you came along to replace him - and ironic.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB6_1.ogg}}-->
+|{{linkable|450}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic319}}
+|Not interested. Good luck getting the Chip back.
+|Neutral 50
+|As I've told you before, you are contractually obligated to deliver the Chip. Do your job - you have everything to gain.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD2_1.ogg}}-->
+|{{linkable|451}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic320}}
+|What do I do next?
+|Neutral 50
+|I won't lie to you. It'll be dangerous.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001599C7_1.ogg}}-->
+|{{linkable|452}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic321}}
+|rowspan="2" |What about Benny?
+|Neutral 50
+|What about him? He has every reason to go to the Fort, so that's where you'll find him.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABA_1.ogg}}-->
+|{{linkable|453}}
+
+|-
+|Neutral 50
+|All I ask is that you recover the Chip. What happens to Benny is up to you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABA_2.ogg}}-->
+|{{linkable|454}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic330}}
+|Goodbye.
+|Neutral 50
+|Come back when you have something to report.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABF_1.ogg}}-->
+|{{linkable|455}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic335}}
+|rowspan="3" |I worked out a deal where the Brotherhood will help the NCR defend the dam.
+|Neutral 50
+|''{nonplussed}'' And why would you have done that?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAC_1.ogg}}-->
+|{{linkable|456}}
+
+|-
+|Neutral 50
+|Success depends on forcing the NCR to rout from Hoover Dam. Hmm, does giving then a powerful ally in the battle make that more or less likely?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAC_2.ogg}}-->
+|{{linkable|457}}
+
+|-
+|Neutral 50
+|Your assignment is unchanged - destroy the Brotherhood of Steel. Please get it right this time.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAAC_3.ogg}}-->
+|{{linkable|458}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic336}}
+|I'm still working on it.
+|Neutral 50
+|Hidden Valley is the place to keep working, then.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB4_1.ogg}}-->
+|{{linkable|459}}
+
+|-
+|rowspan="5" |{{linkable|VDialogueMrHouseMrHouseTopic347}}
+|rowspan="2" |Tell me about the Boomers.
+|Neutral 50
+|They occupied Nellis Air Force Base a little over 50 years ago. One of my Securitrons got some video of their arrival - and then... exploded.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB7_1.ogg}}-->
+|{{linkable|460}}
+
+|-
+|Neutral 50
+|Odds are they were Vault dwellers. That's everything I know about them, really.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB7_2.ogg}}-->
+|{{linkable|461}}
+
+|-
+|rowspan="3" |The Boomers sound dangerous.
+|Neutral 50
+|Only if you come within a mile or so of them.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB8_1.ogg}}-->
+|{{linkable|462}}
+
+|-
+|Neutral 50
+|Given their history of extreme isolationism, it's tempting to leave them be. But those howitzers of theirs...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB8_2.ogg}}-->
+|{{linkable|463}}
+
+|-
+|Neutral 50
+|You can't let indeterminate variables rattle around in your equations like that. They have to be accounted for, one way or another.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAB8_3.ogg}}-->
+|{{linkable|464}}
+
+|-
+|rowspan="6" |{{linkable|VDialogueMrHouseMrHouseTopic348}}
+|rowspan="4" |You recruited the Omertas as one of the Three Families?
+|Neutral 50
+|Yes, though at the time they called themselves the "Slither Kin." A vicious clan, not that that's changed, exactly.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABD_1.ogg}}-->
+|{{linkable|465}}
+
+|-
+|Neutral 50
+|They were nomads, capable fighters, but their specialty was betrayal. They'd invite travelers into their yurts, drug them, murder or enslave them.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABD_3.ogg}}-->
+|{{linkable|466}}
+
+|-
+|Neutral 50
+|They took pride in their craft. I don't think Omertas saw other people as people at all. Everyone else was just... prey.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABD_4.ogg}}-->
+|{{linkable|467}}
+
+|-
+|Neutral 50
+|They reminded me of a certain criminal element Vegas used to attract. I told them some stories, gave them some clothes - and they ran with it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABD_5.ogg}}-->
+|{{linkable|468}}
+
+|-
+|rowspan="2" |What were the original names of the other tribes?
+|Neutral 50
+|The Chairmen, as we know them now, went by the unfortunate appellation of the "Mojave Boot-Riders." They were nomads, too.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABE_1.ogg}}-->
+|{{linkable|469}}
+
+|-
+|Neutral 50
+|As for the White Glove Society, I afraid I'm contractually obligated not to reveal their original name.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EABE_2.ogg}}-->
+|{{linkable|470}}
+
+|-
+|rowspan="6" |{{linkable|VDialogueMrHouseMrHouseTopic349}}
+|rowspan="3" |Tell me about the Brotherhood of Steel.
+|Neutral 50
+|They're a terrorist group, basically. Militant, quasi-religious fanatics obsessed with hoarding Pre-War technology.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC2_1.ogg}}-->
+|{{linkable|471}}
+
+|-
+|Neutral 50
+|Not all technology, mind you. You don't see them raiding hospitals to cart away Auto-Docs or armfuls of prosthetic organs.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC2_2.ogg}}-->
+|{{linkable|472}}
+
+|-
+|Neutral 50
+|No, they greatly prefer the sort of technology that ''{emphasis}'' puts people in hospitals. Or graves, rather, since hospitals went the way of the Dodo.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC2_3.ogg}}-->
+|{{linkable|473}}
+
+|-
+|rowspan="3" |Why do you hate the Brotherhood so much?
+|Neutral 50
+|Because they're ridiculous! Because they galavant around the Mojave pretending to be Knights of Yore.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC3_1.ogg}}-->
+|{{linkable|474}}
+
+|-
+|Neutral 50
+|Or did, until the NCR showed them that ideological purity and shiny power armor don't count for much when you're outnumbered 15:1.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC3_2.ogg}}-->
+|{{linkable|475}}
+
+|-
+|Neutral 50
+|The world has no use for emotionally unstable techno-fetishists. Just wipe them out, will you?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC3_3.ogg}}-->
+|{{linkable|476}}
+
+|-
+|rowspan="10" |{{linkable|VDialogueMrHouseMrHouseTopic351}}
+|rowspan="4" |Why do you care whether Kimball lives or dies?
+|Neutral 50
+|I care because he is a known quantity - not the man so much as the political context he inhabits.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC8_1.ogg}}-->
+|{{linkable|477}}
+
+|-
+|Neutral 50
+|Kimball rose to prominence as the "Hero of the Mojave" when he led a campaign of reprisals against tribals who dared to attack NCR citizens.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC8_2.ogg}}-->
+|{{linkable|478}}
+
+|-
+|Neutral 50
+|Ordering the occupation of Hoover Dam was his first act of office. As water and electricity flowed to NCR cities, his popularity soared.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC8_3.ogg}}-->
+|{{linkable|479}}
+
+|-
+|Neutral 50
+|Conversely, his failure to annex the Mojave these seven years, and the immense costs of occupying a foreign land, have eroded his popular support.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC8_4.ogg}}-->
+|{{linkable|480}}
+
+|-
+|rowspan="3" |So why don't you want the NCR President to die?
+|Neutral 50
+|''{Oh, the burdens of intelligence}'' Kimball's entire political career is inextricably bound up with the NCR's occupation of the Mojave. It's his war.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC9_1.ogg}}-->
+|{{linkable|481}}
+
+|-
+|Neutral 50
+|If I compell the NCR to retreat, Kimball will be the sacrifice offered to the gods, so decent NCR citizens can get on with their lives.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC9_2.ogg}}-->
+|{{linkable|482}}
+
+|-
+|Neutral 50
+|In retrospect, the Mojave and Hoover Dam will seem like one man's misadventure. Kimball will be blamed, not me. Not New Vegas.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAC9_3.ogg}}-->
+|{{linkable|483}}
+
+|-
+|rowspan="3" |And if Kimball were to be assassinated?
+|Neutral 50
+|Then the Hero of the Mojave would become the Martyr of Hoover Dam. And when, subsequently, I force the NCR to retreat...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F8_1.ogg}}-->
+|{{linkable|484}}
+
+|-
+|Neutral 50
+|They lick their wounds, and dream of righteous vengeance against New Vegas. Hello, embargo, farewell, tourist economy.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F8_2.ogg}}-->
+|{{linkable|485}}
+
+|-
+|Neutral 50
+|I've calculated and re-calculated these probabilities. Kimball must live.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F8_3.ogg}}-->
+|{{linkable|486}}
+
+|-
+|rowspan="10" |{{linkable|VDialogueMrHouseMrHouseTopic352}}
+|rowspan="2" |What should I expect at the dam?
+|Neutral 50
+|''{amusing yourself}'' Imagine two snarling dogs fighting over a curve of bone, perhaps the rib of their master, long-dead.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD6_1.ogg}}-->
+|{{linkable|487}}
+
+|-
+|Neutral 50
+|It'll be a pitched battle, that's a certainty. Perhaps the greatest battle the Earth has seen since the human race nearly made itself extinct.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD6_2.ogg}}-->
+|{{linkable|488}}
+
+|-
+|rowspan="2" |Any speculation on Legion tactics?
+|Neutral 50
+|With Caesar dead, it's hard to know what to expect. The Legate, Lanius, is renowned as a brutal man, not a subtle tactician.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD7_1.ogg}}-->
+|{{linkable|489}}
+
+|-
+|Neutral 50
+|Frontal assaults, wave attacks - these are the sort of tactics one would expect from such a man.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD7_2.ogg}}-->
+|{{linkable|490}}
+
+|-
+|rowspan="2" |Any speculation on Legion tactics?
+|Neutral 50
+|The Legion will mount a ferocious and determined frontal assault from the east, that much is certain. <!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD8_1.ogg}}-->
+|{{linkable|491}}
+
+|-
+|Neutral 50
+|Still, Caesar is a capable strategist. I'd be surprised if he hasn't found some way to infiltrate the dam, or the NCR's rear areas.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0014EAD8_2.ogg}}-->
+|{{linkable|492}}
+
+|-
+|rowspan="3" |How will the NCR defend Hoover Dam?
+|Neutral 50
+|General Oliver's ''{disparaging}'' strategy - or "tunnel vision," as I like to call it - has been to mass troops at Hoover Dam.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015B7A1_2.ogg}}-->
+|{{linkable|493}}
+
+|-
+|Neutral 50
+|He wants to out-fight the Legion in a straight-forward slugging match, and then, when they rout, pursue and destroy them in detail.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015B7A1_4.ogg}}-->
+|{{linkable|494}}
+
+|-
+|Neutral 50
+|A crushing, decisive victory of this sort would overshadow the tactical ingenuity of Chief Hanlon's defense four years ago, you see.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015B7A1_5.ogg}}-->
+|{{linkable|495}}
+
+|-
+|What's your battle plan for the Dam?
+|Neutral 50
+|A good deal should be obvious to you by now. I won't spoil the rest by talking out of turn.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015B7A2_1.ogg}}-->
+|{{linkable|496}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic363}}
+|rowspan="3" |Nothing I can do. Trying to stop them would be a suicide mission.
+|Neutral 50
+|Can't put the genie back in the bottle, is that it? Maybe you should've thought of that ''{emphasis}'' before you conspired to destroy my property.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155101_1.ogg}}-->
+|{{linkable|497}}
+
+|-
+|Neutral 50
+|''{lightening somewhat}'' That said, I'd know nothing of the Omertas' plot if you'd kept it secret. Perhaps I owe you my gratitude, after all...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155101_2.ogg}}-->
+|{{linkable|498}}
+
+|-
+|Neutral 50
+|The information you've provided will suffice. When the battle for Hoover Dam comes, I'll make sure my Securitrons are waiting for the Omertas.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155101_3.ogg}}-->
+|{{linkable|499}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic366}}
+|Wait for them to make their move. Forewarned is forearmed.
+|Neutral 50
+|I suppose you're right... When the Legion assaults Hoover Dam, my Securitrons will be waiting for the Omertas. They won't accomplish much.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550EF_1.ogg}}-->
+|{{linkable|500}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseMrHouseTopic367}}
+|rowspan="2" |Send your Securitrons into Gomorrah and kill off the Omertas' leaders.
+|Neutral 50
+|Exactly how many civilians did you want to die in that crossfire?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F6_1.ogg}}-->
+|{{linkable|501}}
+
+|-
+|Neutral 50
+|Still, you raise a fair point. My Securitrons can handle this. When the Legion attacks Hoover Dam, I'll be waiting for the Omertas.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F6_2.ogg}}-->
+|{{linkable|502}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic372}}
+|The Brotherhood is holed up in Hidden Valley.
+|Neutral 50
+|''{admiring the player's knowledge}'' You're absolutely right. You must've had run-ins with them. As have I...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F7_1.ogg}}-->
+|{{linkable|503}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic376}}
+|rowspan="3" |Any recommendations on how to complete the mission?
+|Neutral 50
+|From time to time, the NCR has assaulted Brotherhood bunkers. In four of the six incidents I know of, the bunkers self-destructed.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FC_1.ogg}}-->
+|{{linkable|504}}
+
+|-
+|Neutral 50
+|I surmise it's standard practice for the Brotherhood to install a self-destruct system. It's consistent with their ''{disdain}'' uncompromising nature.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FC_2.ogg}}-->
+|{{linkable|505}}
+
+|-
+|Neutral 50
+|You might use that against them. Or kill them another way, it's up to you. Return when it's done.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FC_3.ogg}}-->
+|{{linkable|506}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic380}}
+|There nothing I can do to protect Kimball?
+|Neutral 50
+|I can't use you. Had you shown moderation in your dealings with the NCR, we'd be in a different position.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550FA_1.ogg}}-->
+|{{linkable|507}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic382}}
+|I'll be leaving, then.
+|Neutral 50
+|Oh no, not so quick. I still have work for you.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F1_1.ogg}}-->
+|{{linkable|508}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic383}}
+|I'll do it.
+|Neutral 50
+|Don't attack unless there are clear signs that Kimball's visit is imminent. Cause enough chaos to cancel the visit, no more. Then return to me.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015510A_1.ogg}}-->
+|{{linkable|509}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic385}}
+|No thanks.
+|Neutral 50
+|Not so eager to take on a suicide mission, is that it? If you'd shown moderation in your dealings with the NCR, we wouldn't be in this position.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550EA_1.ogg}}-->
+|{{linkable|510}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic389}}
+|I had my reasons.
+|Neutral 50
+|Whatever those reasons may be, you've jeopardized the success of this entire concern.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550EC_1.ogg}}-->
+|{{linkable|511}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic391}}<br />''<Use Speech to deny responsibility.>''
+|rowspan="2" |I was set up. The Legion used me as a patsy.
+|Neutral 50
+|[SUCCEEDED] They knew you were coming? They were better prepared than I anticipated, then. I won't underestimate them again.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155102_1.ogg}}-->
+|{{linkable|512}}
+
+|-
+|Neutral 50
+|Before that happens, I'd ask you to complete one final task. It may seem trivial, but that's far from the case.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155102_3.ogg}}-->
+|{{linkable|513}}
+
+|-
+|It... it wasn't Kimball, it was an imposter. It had to die!
+|Neutral 50
+|[FAILED] Whatever your reasons, you've jeopardized the success of this entire concern!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155103_1.ogg}}-->
+|{{linkable|514}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic392}}
+|What more could I have done?
+|Neutral 50
+|You could've succeeded!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015510B_1.ogg}}-->
+|{{linkable|515}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic393}}
+|I'll take care of it.
+|Neutral 50
+|With this accomplished, all preparations will have been made. The battle for Hoover Dam will be upon us before long.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015510F_1.ogg}}-->
+|{{linkable|516}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic394}}
+|rowspan="3" |What's this about a dormant reactor?
+|Neutral 50
+|The strain of defending Las Vegas from annhilation exceeded my power systems' capacity. My primary reactor shut down.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F2_1.ogg}}-->
+|{{linkable|517}}
+
+|-
+|Neutral 50
+|For years, I played a miser with my emergency power supply. I began to run out of reserves around the time I woke the first batch of Securitrons.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F2_2.ogg}}-->
+|{{linkable|518}}
+
+|-
+|Neutral 50
+|Negotiating an allotment of power from Hoover Dam was crucial. That's what's powered the Strip for the past seven years.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F2_3.ogg}}-->
+|{{linkable|519}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic395}}
+|Goodbye.
+|Neutral 50
+|Come back when your work at the substation is done.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155107_1.ogg}}-->
+|{{linkable|520}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic396}}
+|rowspan="3" |Why didn't you restart the reactor earlier?
+|Neutral 50
+|I needed the operating software on the Platinum Chip to bring it back online.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F4_1.ogg}}-->
+|{{linkable|521}}
+
+|-
+|Neutral 50
+|And to start the reactor itself requires a tremendous jolt of current. Very attention-getting.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F4_2.ogg}}-->
+|{{linkable|522}}
+
+|-
+|Neutral 50
+|The NCR has its hands full now, of course. I doubt they'll raise much of a fuss.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001550F4_3.ogg}}-->
+|{{linkable|523}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseMrHouseTopic397}}
+|rowspan="3" |You already have power. Why is this important?
+|Neutral 50
+|This is not a good time to be dependent on energy from Hoover Dam. When the Legion attacks, the NCR may cut power altogether.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155109_1.ogg}}-->
+|{{linkable|524}}
+
+|-
+|Neutral 50
+|And I'll be needing a good deal more power than the NCR has allotted to the Strip.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155109_2.ogg}}-->
+|{{linkable|525}}
+
+|-
+|Neutral 50
+|Broadcasting encrypted VMQ-boosted command signals to hundreds of Securitrons eats up more power than you might expect.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155109_3.ogg}}-->
+|{{linkable|526}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic401}}
+|Why do I need to be there? The NCR has an army.
+|Neutral 50
+|Indeed they do - an army that'll be too distracted with killing Legionaries to notice the real reason you're there.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155438_1.ogg}}-->
+|{{linkable|527}}
+
+|-
+|rowspan="5" |{{linkable|VDialogueMrHouseMrHouseTopic402}}
+|rowspan="4" |What's the goal?
+|Neutral 50
+|Your objective is to reach a control room halfway across the dam and install an override module similar to the one you used at the Substation.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155437_1.ogg}}-->
+|{{linkable|528}}
+
+|-
+|Neutral 50
+|The override will enable to control the entire dam's power output.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155437_5.ogg}}-->
+|{{linkable|529}}
+
+|-
+|Neutral 50
+|You may remember how the bunker at the Fort was rather dimly lit? Well, just like the Lucky 38, it needs a big jolt of electricity to power up.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155437_2.ogg}}-->
+|{{linkable|530}}
+
+|-
+|Neutral 50
+|You've already uploaded the new operating system to the Securitrons. All they need is power and they'll be in fighting trim.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155437_3.ogg}}-->
+|{{linkable|531}}
+
+|-
+|What's the goal?
+|Neutral 50
+|As I've said, your objective is to install an override module in the control room halfway across the dam. Are you ready perform this task?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015EB5D_1.ogg}}-->
+|{{linkable|532}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic403}}
+|Sounds like I get to kill lots of Legionaries.
+|Neutral 50
+|Indeed you will. Just bear in mind that's not the reason you're there.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155436_1.ogg}}-->
+|{{linkable|533}}
+
+|-
+|{{linkable|VDialogueMrHouseMrHouseTopic404}}
+|Do I need to remind you that the NCR hates me?
+|Neutral 50
+|No cause for alarm - you'll have an escort of Securitrons to help you fight your way onto the dam.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155105_1.ogg}}-->
+|{{linkable|534}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseTopic008}}
+|rowspan="2" |Where do you want me to start?
+|Neutral 50
+|Since 2278, I've lost five roaming Securitrons near Hidden Valley.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155100_1.ogg}}-->
+|{{linkable|535}}
+
+|-
+|Neutral 50
+|I didn't receive any clear video of the incidents, but telemetry from the units destroyed indicates they were attacked with energy weapons.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00155100_2.ogg}}-->
+|{{linkable|536}}
+
+|-
+|Where do you want me to start?
+|Neutral 50
+|It's obvious that the Brotherhood has a base in Hidden Valley or thereabouts. Finding it won't be easy, but getting inside will be the real trick.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AA_1.ogg}}-->
+|{{linkable|537}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseTopic009}}
+|rowspan="2" |Any possibility of a diplomatic solution?
+|Neutral 50
+|We're talking about a ''{COAT-ah-ree}'' coterie of bulging-eyed fanatics who think all Pre-War technology belongs to them.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418B6_2.ogg}}-->
+|{{linkable|538}}
+
+|-
+|Neutral 50
+|They'll never accept my using an army of robots to defend New Vegas. While it's a fight I can win, I'd rather sidestep it altogether.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418B6_4.ogg}}-->
+|{{linkable|539}}
+
+|-
+|rowspan="2" |{{linkable|VDialogueMrHouseTopic010}}
+|rowspan="2" |I don't want to kill off the entire Brotherhood.
+|Neutral 50
+|Don't tell me that you've fallen for the stories of noble paladins on crusade, preserving mankind's technology in a benighted age? Dross!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A6_1.ogg}}-->
+|{{linkable|540}}
+
+|-
+|Neutral 50
+|''{not unkindly}'' In any case... this is an employer - employee relationship. I've given you an assignment, and the directions are clear.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A6_2.ogg}}-->
+|{{linkable|541}}
+
+|-
+|rowspan="3" |{{linkable|VDialogueMrHouseTopic011}}
+|rowspan="3" |What do you want me to do?
+|Neutral 50
+|Simple - an NCR Ranger named Grant is in charge of security arrangements for the visit. Present yourself to him, let him know you want to help.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A1_1.ogg}}-->
+|{{linkable|542}}
+
+|-
+|Neutral 50
+|Given your reputation, it's a near-certainty that he'll accept your offer.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A1_3.ogg}}-->
+|{{linkable|543}}
+
+|-
+|Neutral 50
+|Don't dally. The precise time of Kimball's visit is a closely-guarded secret, but it will happen soon.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418A1_4.ogg}}-->
+|{{linkable|544}}
+
+|-
+|{{linkable|VDialogueMrHouseTopic013}}
+|Let me think about it.
+|Neutral 50
+|There's nothing to think about. You have a job to do, so do it.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00141896_1.ogg}}-->
+|{{linkable|545}}
+
+|-
+|{{linkable|VDialogueMrHouseTopic014}}
+|I've already destroyed their bunker.
+|Neutral 50
+|''{nonplussed}'' You have?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001418AC_1.ogg}}-->
+|{{linkable|546}}
+
+|}
+
+== Conversation ==
+{|class="ace-table ace-table-full "
+
+! TOPIC
+! TOPIC TEXT / PROMPT
+! EMOTION
+! RESPONSE TEXT
+! #
+
+|-
+|rowspan="15" |{{linkable|VDialogueMrHouseSecuritronUpgrade}}
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|Step closer to the demonstration area, if you would...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_001564FA_1.ogg}}-->
+|{{linkable|547}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|I expect you're well familiar with my Securitrons by now.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158271_1.ogg}}-->
+|{{linkable|548}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|The titanium alloy housing that protects its electronic core deflects small arms and shrapnel easily enough...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158272_1.ogg}}-->
+|{{linkable|549}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|Its X-25 gatling laser, produced to spec by Glastinghouse, Inc., is deadly  against soft targets at medium range...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158273_1.ogg}}-->
+|{{linkable|550}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|And for close-range suppression or crowd control, the Securitron is armed with a 9mm submachinegun.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158274_1.ogg}}-->
+|{{linkable|551}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|All of this, you probably already knew...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158275_1.ogg}}-->
+|{{linkable|552}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|What you did not know is that these are the Securitrons' ''{emphasis}'' secondary weapons.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158276_1.ogg}}-->
+|{{linkable|553}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|All this time, my Securitrons have had to get by running the Mark I operating system, which lacked software drivers for their primary weapons!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158277_1.ogg}}-->
+|{{linkable|554}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|Today, with the delivery of the Platinum Chip, all that changes. Behold, for the first time, Securitrons running the Mark II OS!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A16_1.ogg}}-->
+|{{linkable|555}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|The M-235 Missile Launcher gives the Securitron the ability to engage ground and air targets at significantly longer ranges...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158278_1.ogg}}-->
+|{{linkable|556}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|And a rapid-fire G-28 grenade launching system ensures the Securitron is deadly in close-range engagements.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00158279_1.ogg}}-->
+|{{linkable|557}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|The software upgrade also includes drivers for the Securitrons' highly sophisticated onboard auto-repair systems.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015827A_1.ogg}}-->
+|{{linkable|558}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|All together, the Mark II ''{emphasis}'' software upgrade confers a 235% increase in combat effectiveness per unit.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_00159A17_1.ogg}}-->
+|{{linkable|559}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|The city of New Vegas finally has soldiers worthy of protecting it!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015827B_1.ogg}}-->
+|{{linkable|560}}
+
+|-
+|VDialogueMrHouseSecuritronUpgrade
+|Neutral 50
+|Return to the penthouse now. We have much to discuss...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_VDialogueMrHous_0015827C_1.ogg}}-->
+|{{linkable|561}}
+
+|-
+|rowspan="5" |{{linkable|VHSecuritronHouse}}
+|VHSecuritronHouse
+|Happy 10
+|Ah, General Oliver. I expected you would survive.<!--{{Inline quote|sound=CreatureUniqueMrHouse VFreeformH_VHSecuritronHou_00159B1D_1.ogg}}-->
+|{{linkable|562}}
+
+|-
+|VHSecuritronHouse
+|Happy 10
+|I see you've met my star employee. ''{Beat, pleased}'' A real performer, obviously - and a lot more ''{emphasis}'' reliable than the other candidate I considered for the position.<!--{{Inline quote|sound=CreatureUniqueMrHouse VFreeformH_VHSecuritronHou_00159B1E_1.ogg}}-->
+|{{linkable|563}}
+
+|-
+|VHSecuritronHouse
+|Happy 10
+|I'd pay very close attention to what she has to say, as well as any official papers she hands over for your perusal.<!--{{Inline quote|sound=CreatureUniqueMrHouse VFreeformH_VHSecuritronHou_00159B1F_1.ogg}}-->
+|{{linkable|564}}
+
+|-
+|VHSecuritronHouse
+|Happy 10
+|I'd pay very close attention to what he has to say, as well as any official papers he hands over for your perusal.<!--{{Inline quote|sound=CreatureUniqueMrHouse VFreeformH_VHSecuritronHou_00159B20_1.ogg}}-->
+|{{linkable|565}}
+
+|-
+|VHSecuritronHouse
+|Neutral 50
+|''{eager to enjoy triumph}'' Let's get on with it, shall we? Hmm?<!--{{Inline quote|sound=CreatureUniqueMrHouse VFreeformH_VHSecuritronHou_0015D983_1.ogg}}-->
+|{{linkable|566}}
+
+|-
+|rowspan="6" |{{linkable|vDialogueMrHouseCasinoPissed}}
+|vDialogueMrHouseCasinoPissed
+|Neutral 50
+|You dared come here, after what you did? ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159479_1.ogg}}-->
+|{{linkable|567}}
+
+|-
+|vDialogueMrHouseCasinoPissed
+|Neutral 50
+|What do you think you're going to do? Fight you way up to the penthouse and assassinate me? ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_0015947A_1.ogg}}-->
+|{{linkable|568}}
+
+|-
+|vDialogueMrHouseCasinoPissed
+|Neutral 50
+|You came here to finish what you think you started? ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_0015947B_1.ogg}}-->
+|{{linkable|569}}
+
+|-
+|vDialogueMrHouseCasinoPissed
+|Neutral 50
+|This is nothing compared to what's waiting for you up in the penthouse. ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_0015947C_1.ogg}}-->
+|{{linkable|570}}
+
+|-
+|vDialogueMrHouseCasinoPissed
+|Neutral 50
+|Vegas will still rise again. Your betrayal won't defeat me! ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_0015947D_1.ogg}}-->
+|{{linkable|571}}
+
+|-
+|vDialogueMrHouseCasinoPissed
+|Neutral 50
+|The Lucky 38 will be your grave. I'll finish what Benny couldn't get right! ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_0015947E_1.ogg}}-->
+|{{linkable|572}}
+
+|-
+|rowspan="7" |{{linkable|vDialogueMrHouseControlPissed}}
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|Hold on, now, hold on. Just a moment...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159470_1.ogg}}-->
+|{{linkable|573}}
+
+|-
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|Turn around and leave, and I'll... I won't attack you any further.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159471_1.ogg}}-->
+|{{linkable|574}}
+
+|-
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|Just... stay away from the console. It doesn't do anything...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159472_1.ogg}}-->
+|{{linkable|575}}
+
+|-
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|You've come back to kill me this time, I assume?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159473_1.ogg}}-->
+|{{linkable|576}}
+
+|-
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|Ironic, how this turned out. The thousands of hours I spent calculating odds, running projections, planning for every contingency...<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159474_1.ogg}}-->
+|{{linkable|577}}
+
+|-
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|...only to be done in by a mail carrier with a grandiosity complex.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159475_1.ogg}}-->
+|{{linkable|578}}
+
+|-
+|vDialogueMrHouseControlPissed
+|Neutral 50
+|Get it over with, will you?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159476_1.ogg}}-->
+|{{linkable|579}}
+
+|-
+|rowspan="3" |{{linkable|vDialogueMrHouseElevatorAlert}}
+|vDialogueMrHouseElevatorAlert
+|Neutral 50
+|Aggressive acts on the casino premises will be met with lethal force. Vacate the premises immediately.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159485_1.ogg}}-->
+|{{linkable|580}}
+
+|-
+|vDialogueMrHouseElevatorAlert
+|Neutral 50
+|Vacate the premises immediately. The casino is off-limits for 24 hours.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159486_1.ogg}}-->
+|{{linkable|581}}
+
+|-
+|vDialogueMrHouseElevatorAlert
+|Neutral 50
+|Vacate the premises immediately. All Securitrons are at a state of high alert.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159487_1.ogg}}-->
+|{{linkable|582}}
+
+|-
+|rowspan="4" |{{linkable|vDialogueMrHouseFirstTalk}}
+|vDialogueMrHouseFirstTalk
+|Neutral 50
+|Hello.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00158264_1.ogg}}-->
+|{{linkable|583}}
+
+|-
+|vDialogueMrHouseFirstTalk
+|Neutral 50
+|Come over and introduce yourself.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00158265_1.ogg}}-->
+|{{linkable|584}}
+
+|-
+|vDialogueMrHouseFirstTalk
+|Neutral 50
+|Come now, don't keep me waiting.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00158266_1.ogg}}-->
+|{{linkable|585}}
+
+|-
+|vDialogueMrHouseFirstTalk
+|Neutral 50
+|I invited you here so we could talk, not so you can nose around.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00158267_1.ogg}}-->
+|{{linkable|586}}
+
+|-
+|rowspan="2" |{{linkable|vDialogueMrHouseLastWillTestament}}
+|vDialogueMrHouseLastWillTestament
+|Neutral 50
+|If this statement is being broadcast, I am deceased. Please approach a Securitron and take one of the printed obituaries.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_001564FC_1.ogg}}-->
+|{{linkable|587}}
+
+|-
+|vDialogueMrHouseLastWillTestament
+|Neutral 50
+|I, Robert Edwin House, am deceased. Please approach a Securitron and take one of the printed obituaries.<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159A11_1.ogg}}-->
+|{{linkable|588}}
+
+|-
+|rowspan="6" |{{linkable|vDialogueMrHousePenthousePissed}}
+|vDialogueMrHousePenthousePissed
+|Neutral 50
+|Think you're doing well to have made it this far? ''{[Casino floor]}''<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_0015947F_1.ogg}}-->
+|{{linkable|589}}
+
+|-
+|vDialogueMrHousePenthousePissed
+|Neutral 50
+|Your chances of breaking through my defenses, they're... minimal, at best!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159480_1.ogg}}-->
+|{{linkable|590}}
+
+|-
+|vDialogueMrHousePenthousePissed
+|Neutral 50
+|Why are you doing this?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159481_1.ogg}}-->
+|{{linkable|591}}
+
+|-
+|vDialogueMrHousePenthousePissed
+|Neutral 50
+|I would've made you wealthy! You could've helped change the world!<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159482_1.ogg}}-->
+|{{linkable|592}}
+
+|-
+|vDialogueMrHousePenthousePissed
+|Neutral 50
+|You're actually going to do this all over again?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159483_1.ogg}}-->
+|{{linkable|593}}
+
+|-
+|vDialogueMrHousePenthousePissed
+|Neutral 50
+|Damn it, will you die already?<!--{{Inline quote|sound=CreatureUniqueMrHouse VDialogueM_vDialogueMrHous_00159484_1.ogg}}-->
+|{{linkable|594}}
+
+|}
+
+;Quotes if you want to switch it up
+* {{Inline quote|I like to think you have enough sense to do the right thing. The rewards for doing so are immense... as are the punishments for not doing so.|sound=Vdialoguem vdialoguemrhous 0014b64a 1.ogg}}
+* {{Inline quote|To your untrained eyes, it may look as though mankind is making a comeback. In the [[New California Republic|NCR]], you have something that resembles a nation state. Savage as it is, in [[Caesar's Legion]], you have an organized society. But neither of these offer a future. They're regurgitations of the past.|sound=FNV RobertHouse ToYourUntrainedEyes.ogg}}
+* {{Inline quote|From what I hear, I'd want to eat at [[the Gourmand]] every night... if I were ambulatory.|sound=FNV MrHouse FromWhatIHear.ogg}}
+* {{Inline quote|I offer many benefits, but vacation time isn't one of them.|sound=FNV RobertHouse IOfferManyBenefits.ogg}}
+* {{Inline quote|You don't see [[Brotherhood of Steel|them]] raiding hospitals to cart away Auto-Docs or armfuls of prosthetic organs. No, they greatly prefer the sort of technology that puts people in hospitals. Or graves, rather, since hospitals went the way of the Dodo.|sound=FNV RobertHouse RaidingHospitals.ogg}}
+* {{Inline quote|We're talking about a coterie of bulging-eyed fanatics who think all Pre-War technology belongs to them.|sound=FNV RobertHouse BulgingEyedFanatics.ogg}}
+* {{Inline quote|Because they're ridiculous! Because they galavant around the Mojave pretending to be Knights of Yore. The world has no use for emotionally unstable techno-fetishists. Just wipe them out, will you?|sound=FNV RobertHouse BecauseTheyreRidiculous.ogg}}
+* {{Inline quote|Ideological purity and shiny power armor don't count for much when you're outnumbered 15:1.|sound=FNV RobertHouse IdeologicalPurity.ogg}}
+* {{Inline quote|Goodbye? Is that some kind of joke? You barely understand what I want you to accomplish down there.|sound=FNV RobertHouse SomeKindOfJoke.ogg}}
+* {{Inline quote|I can't reach through this monitor and compel you to follow instructions, but know this - if you disappoint me, you will pay for it.|sound=FNV RobertHouse IfYouDisappointMe.ogg}}
+* {{Inline quote|Are you a child? The Platinum Chip was taken from you, obviously.|sound=FNV RobertHouse AreYouAChild.ogg}}
+* {{Inline quote|Until you do this, consider yourself suspended... without pay.|sound=FNV RobertHouse SuspendedWithoutPay.ogg}}
+* {{Inline quote|Marvelous work ethic, bravo.|sound=FNV RobertHouse MarvelousWorkEthic.ogg}}
+* {{Inline quote|Kimball may be a grandstanding boor, but I want him protected.|sound=FNV RobertHouse IWantHimProtected.ogg}}
+* {{Inline quote|An opinion you expressed with supreme subtlety and finesse. Moving on...|sound=FNV RobertHouse SubtletyAndFinesse.ogg}}
+* {{Inline quote|Do you have any idea how prodigious is the opportunity you're casting aside here?|sound=FNV RobertHouse CastingAside.ogg}}
+* {{Inline quote|Why would I want to go to war against the NCR? They're my best customers.|sound=FNV RobertHouse MyBestCustomers.ogg}}
+* {{Inline quote|Not interested? Not interested? You have an interest in this even if you're too stupid to know it. If you have an interest in breathing, you have an interest in this.|sound=FNV RobertHouse NotInterested.ogg}}
+* {{Inline quote|I haven't shown my hand - I've shown one card. I've given my enemies a single, provocative datum upon which to fixate. They have no idea what other cards I'm holding. It's a strong hand, believe me - I dealt it to myself.|sound=FNV RobertHouse IHaventShownMyHand.ogg}}
+* {{Inline quote|Consequently, I have to "wait and see" what happens. It's... grotesque.|sound=FNV RobertHouse WaitAndSee.ogg}}
+* {{Inline quote|You're making me question your usefulness, you realize.|sound=FNV RobertHouse QuestionYourUsefulness.ogg}}
+* {{Inline quote|Had I used an armed caravan to transport the Chip, I might as well have been announcing to the world "this is important. Attack this!"|sound=FNV RobertHouse HadIUsedAnArmedCaravan.ogg}}
+* {{Inline quote|I'm not offering you an incentive as crude as money - though there'll be plenty of that. What I'm offering you is a ground-floor opportunity in the most important enterprise on Earth. What I'm offering is a future - for you, and for what remains of the human race.|sound=FNV RobertHouse IncentiveAsCrudeAsMoney.ogg}}
+* {{Inline quote|If you find Caesar's Legion so frightening at this remove, imagine them rampaging across the Strip. We have a chance to see them destroyed, to see New Vegas become the harbinger of a new age.|sound=FNV RobertHouse RampagingAcrossTheStrip.ogg}}
+* {{Inline quote|Don't let the video screens and computer terminals fool you. I'm flesh and blood, not silicon.|sound=FNV RobertHouse ImFleshAndBlood.ogg}}
+* {{Inline quote|You needn't be afraid of me. It's my Securitrons that are going to kill you.|sound=FNV RobertHouse ItsMySecuritrons.ogg}}
+* {{Inline quote|By the time I was 30 years old, I was a billionaire 30 times over. I founded and ran a vast economic empire. Do you really think I'm going to let an upstart come into my home and ransom my property to me? I spent two centuries searching for the Platinum Chip. It's my invention, my property - mine. Now be a good courier and deliver it!|sound=FNV RobertHouse BeAGoodCourier.ogg}}
+* {{Inline quote|I invite you to think carefully about what you do next... standing alone before me, surrounded by my heavily-armed Securitron guards.|sound=FNV RobertHouse HeavilyArmedSecuritronGuards.ogg}}
+* {{Inline quote|I'm sure the assassins will wait for you to show up.|sound=FNV RobertHouse TheAssassinsWillWait.ogg}}
+* {{Inline quote|I much prefer working with robots...|sound=FNV RobertHouse WorkingWithRobots.ogg}}
+* {{Inline quote|Absolutely not! Caesar is of great use to me. I don't want you harming a hair on that man's head - assuming you can find one.|sound=FNV RobertHouse CaesarIsOfGreatUseToMe.ogg}}
+* {{Inline quote|What of it? I enjoy them. There's something about a little diorama set inside a glass dome that I... find pleasing.|sound=FNV RobertHouse WhatOfIt.ogg}}
+{{Dialogue Transcript|Ron the Narrator}}
+== Topics ==
+{|class="ace-table ace-table-full "
+
+! TOPIC
+! TOPIC TEXT / PROMPT
+! EMOTION
+! RESPONSE TEXT
+! #
+
+|-
+|rowspan="3"|{{linkable|VEndingCLCaesarAlive}}
+|rowspan="3"|VEndingCaesarAlive
+|Neutral 50
+|''{narrating}''Caesar entered The Strip as though it was his Triumph. The Legion pushed the NCR out of New Vegas entirely, driving them back to the Mojave Outpost. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCLCaesarAli_00161FEC_1.ogg}}-->
+|{{linkable|1}}
+
+|-
+|Neutral 50
+|''{narrating}''The Legion occupied all major locations, enslaving much of the population and peacefully lording over the rest. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCLCaesarAli_00161FEC_2.ogg}}-->
+|{{linkable|2}}
+
+|-
+|Neutral 50
+|''{narrating}''Under the Legion's banner, civilization - unforgiving as it was - finally came to the Mojave wasteland. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCLCaesarAli_00161FEC_3.ogg}}-->
+|{{linkable|3}}
+
+|-
+|rowspan="3"|{{linkable|VEndingCLCaesarDead}}
+|rowspan="3"|VEndingCaesarDead
+|Neutral 50
+|''{narrating}''The Legate is crowned as the new Caesar. He entered The Strip as though it was a military target, destroying anyone who resisted him. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCLCaesarDea_00161FEE_1.ogg}}-->
+|{{linkable|4}}
+
+|-
+|Neutral 50
+|''{narrating}''The Legion brutally occupied all major locations, killing and enslaving a large amount of the population. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCLCaesarDea_00161FEE_2.ogg}}-->
+|{{linkable|5}}
+
+|-
+|Neutral 50
+|''{narrating}''Under the Legion's banner, civilization - savage as it was - finally came to the Mojave wasteland. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCLCaesarDea_00161FEE_3.ogg}}-->
+|{{linkable|6}}
+
+|-
+|rowspan="3"|{{linkable|VEndingConclusion}}
+|rowspan="3"|VEndingConclusion
+|Neutral 50
+|''{Narration, starting to wrap things up}''And so the Courier's road came to an end... for now. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingConclusion_00161E99_1.ogg}}-->
+|{{linkable|7}}
+
+|-
+|Neutral 50
+|''{Narration, wrapping things up}''In the new world of the Mojave wasteland, fighting continued, blood was spilled, and many lived and died - just as they had in the Old World. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingConclusion_00161E99_2.ogg}}-->
+|{{linkable|8}}
+
+|-
+|Neutral 50
+|''{Narration, final closing comment of the game}''Because war... war never changes. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingConclusion_00161E99_3.ogg}}-->
+|{{linkable|9}}
+
+|-
+|rowspan="24"|{{linkable|VEndingCourierFemale}}
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Good Karma, NCR Victory, Female}''The Courier, fair and even-handed in her dealings throughout the Wasteland, was honored by the NCR for her support of the military at Hoover Dam. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162006_1.ogg}}-->
+|{{linkable|10}}
+
+|-
+|Neutral 50
+|''{Narration}''She was presented with the Golden Branch, the highest civilian decoration given by the Republic. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162006_2.ogg}}-->
+|{{linkable|11}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Neutral Karma, NCR Victory, Female}''Though the Courier's agenda was a mystery to many, she was honored by NCR for her support of the military at Hoover Dam. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162007_1.ogg}}-->
+|{{linkable|12}}
+
+|-
+|Neutral 50
+|''{Narration}''She was presented with the Golden Branch, the highest civilian decoration given by the Republic. ''{''{This line is a dupe, do not record twice.}''}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162007_2.ogg}}-->
+|{{linkable|13}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Evil Karma, NCR Victory, Female}''With brutal methods that few in NCR would approve of, it was the Courier who secured NCR's victory at Hoover Dam. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162008_1.ogg}}-->
+|{{linkable|14}}
+
+|-
+|Neutral 50
+|''{Narration}''Despite her extreme actions, she was awarded with the Golden Branch, the highest civilian decoration given by the Republic. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162008_2.ogg}}-->
+|{{linkable|15}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Good Karma, Legion Victory, Female}''Though the Courier herself was just and forthright in her dealings throughout the Wasteland, she helped the Legion achieve victory. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162009_1.ogg}}-->
+|{{linkable|16}}
+
+|-
+|Neutral 50
+|''{Narration}''Caesar honored her with a golden coin, minted in celebration of her contributions and distributed throughout the wasteland. ''{''{May have already been recorded, dupe line.}''}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_00162009_2.ogg}}-->
+|{{linkable|17}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Neutral Karma, Legion Victory, Female}''The Courier, a mercenary at heart, helped the Legion achieve victory at Hoover Dam. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200A_1.ogg}}-->
+|{{linkable|18}}
+
+|-
+|Neutral 50
+|''{Narration}''Caesar honored her with a golden coin, minted in celebration of her contributions and distributed throughout the wasteland. ''{''{This line is a dupe, do not record twice.}''}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200A_2.ogg}}-->
+|{{linkable|19}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Evil Karma, Legion Victory, Female}''The Legion marched over the Hoover Dam with the help of one who was as brutal and merciless as the worst of them: The Courier. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200B_1.ogg}}-->
+|{{linkable|20}}
+
+|-
+|Neutral 50
+|''{Narration}''Caesar honored her with a  golden coin, minted in celebration of her contributions and distributed throughout the wasteland. ''{''{This line is a dupe, do not record twice.}''}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200B_2.ogg}}-->
+|{{linkable|21}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Good Karma, House Victory, Female}''The Courier, fair and kind-hearted to those in the Wasteland, ensured that Mr. House would keep New Vegas stable and secure for future generations. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200C_1.ogg}}-->
+|{{linkable|22}}
+
+|-
+|Neutral 50
+|''{Narrating}''Mr. House afforded her every luxury at his disposal in the Lucky 38, both out of gratitude and a quiet pride in his choice of lieutenants. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200C_2.ogg}}-->
+|{{linkable|23}}
+
+|-
+|rowspan="2"|VEndingCourierFemale
+|Neutral 50
+|''{Narration, Neutral Karma, House Victory, Female}''The Courier, who had a mixed history in the Wasteland, kept the status quo at Hoover Dam. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200D_1.ogg}}-->
+|{{linkable|24}}
+
+|-
+|Neutral 50
+|''{Narration}''Mr. House kept New Vegas stable, if not free, for generations, and afforded the Courier every luxury at his disposal in the Lucky 38. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierFema_0016200D_2.ogg}}-->
+|{{linkable|25}}
+
+|-
+|Neutral 50
+|''{Narration}''Caesar honored him with a golden coin, minted in celebration of his contributions and distributed throughout the wasteland. ''{''{This line is a dupe, don't record again if recorded once already.}''}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00161FFE_2.ogg}}-->
+|{{linkable|45}}
+
+|-
+|rowspan="2"|VEndingCourier
+|Neutral 50
+|''{Narration, Good Karma, House Victory, Male}''The Courier, fair and kind-hearted to those in the Wasteland, ensured that Mr. House would keep New Vegas stable and secure for future generations. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00161FFF_1.ogg}}-->
+|{{linkable|46}}
+
+|-
+|Neutral 50
+|''{Narration}''Mr. House afforded him every luxury at his disposal in the Lucky 38, out of gratitude - and a quiet sense of pride for his choice in lieutenants. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00161FFF_2.ogg}}-->
+|{{linkable|47}}
+
+|-
+|rowspan="2"|VEndingCourier
+|Neutral 50
+|''{Narration, Neutral Karma, House Victory, Male}''The Courier, who had a mixed history in the Wasteland, kept the status quo at Hoover Dam. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162000_1.ogg}}-->
+|{{linkable|48}}
+
+|-
+|Neutral 50
+|''{Narration}''Mr. House would keep New Vegas stable, if not free, for generations. Mr. House afforded the Courier every luxury at his disposal in the Lucky 38. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162000_2.ogg}}-->
+|{{linkable|49}}
+
+|-
+|rowspan="2"|VEndingCourier
+|Neutral 50
+|''{Narration, Evil Karma, House Victory, Male}''The Courier, cruel and merciless, had ensured that Mr. House would maintain complete control over New Vegas and everyone in it. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162001_1.ogg}}-->
+|{{linkable|50}}
+
+|-
+|Neutral 50
+|''{Narration}''Mr. House afforded him every luxury at his disposal in the Lucky 38, partly out of gratitude, and party out of fear. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162001_2.ogg}}-->
+|{{linkable|51}}
+
+|-
+|rowspan="2"|VEndingCourier
+|Neutral 50
+|''{Narration, Good Karma, Indy Vegas, Male}''Supporting the ideals of independence, the Courier was recognized as the man responsible for a truly free New Vegas.  <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162002_1.ogg}}-->
+|{{linkable|52}}
+
+|-
+|Neutral 50
+|''{Narration}''He ensured Mr. House's tyranny was broken and neither Caesar's Legion nor NCR would ever gain control over New Vegas. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162002_2.ogg}}-->
+|{{linkable|53}}
+
+|-
+|rowspan="2"|VEndingCourier
+|Neutral 50
+|''{Narration, Neutral Karma, Indy Vegas, Male}''Preferring neither the best of the NCR nor the worst of the Legion, the Courier was the man responsible for a truly independent New Vegas. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162003_1.ogg}}-->
+|{{linkable|54}}
+
+|-
+|Neutral 50
+|''{Narration}''He had removed Mr. House from power over the Strip and broken the influence of the NCR and Caesar's Legion in the Mojave Wasteland. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162003_2.ogg}}-->
+|{{linkable|55}}
+
+|-
+|rowspan="2"|VEndingCourier
+|Neutral 50
+|''{Narration, Evil Karma, Indy Vegas, Male}''Supporting all the chaos that comes with independence, the Courier was the man responsible for a truly free New Vegas. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162004_1.ogg}}-->
+|{{linkable|56}}
+
+|-
+|Neutral 50
+|''{Narration}''He ensured the fall of Mr. House and the end of the Legion's and NCR's influence over New Vegas. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingCourierMale_00162004_2.ogg}}-->
+|{{linkable|57}}
+
+|-
+|rowspan="6"|{{linkable|VEndingIndependent}}
+|rowspan="3"|VEndingIndependent
+|Neutral 50
+|''{Narration}''The Courier, with the aid of Yes Man, drove both the Legion and the NCR from Hoover Dam, securing New Vegas' independence from both factions. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIndependent_00161FF6_1.ogg}}-->
+|{{linkable|58}}
+
+|-
+|Neutral 50
+|''{Narration}''With Mr. House out of the picture, the remaining Securitrons on The Strip were hard-pressed to keep order. ''{Beat}''Anarchy ruled the streets. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIndependent_00161FF6_2.ogg}}-->
+|{{linkable|59}}
+
+|-
+|Neutral 50
+|''{Narration}''When the fires died, New Vegas remained, assuming its position as an independent power in the Mojave. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIndependent_00161FF6_3.ogg}}-->
+|{{linkable|60}}
+
+|-
+|rowspan="3"|VEndingIndependent
+|Neutral 50
+|''{Narration}''The Courier, with the aid of Yes Man, drove both the Legion and the NCR from Hoover Dam, securing New Vegas' independence from both factions. ''{''{Dupe of another line for scripting}''}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIndependent_00163CD3_1.ogg}}-->
+|{{linkable|61}}
+
+|-
+|Neutral 50
+|''{Narration}''With Mr. House out of the picture, part of the Securitron army was diverted to the Strip to keep order. ''{Beat, slightly lower}''Any chaos on the streets was ended, quickly. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIndependent_00163CD3_2.ogg}}-->
+|{{linkable|62}}
+
+|-
+|Neutral 50
+|''{Narration}''Chaos became uncertainty, then acceptance, with minimal loss of life. ''{Beat}''New Vegas assumed its position as an independent power in the Mojave. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIndependent_00163CD3_3.ogg}}-->
+|{{linkable|63}}
+
+|-
+|{{linkable|VEndingIntro}}
+|VEndingIntro
+|Neutral 50
+|''{Narration}''And so the Courier who had cheated death in the cemetery outside Goodsprings cheated death once again, and the Mojave wasteland was forever changed. ''{And so the Courier cheated death, playing a pivotal role in the future of the Mojave wasteland.}'' <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingIntro_00161FEF_1.ogg}}-->
+|{{linkable|64}}
+
+|-
+|rowspan="3"|{{linkable|VEndingMrHouse}}
+|rowspan="3"|VEndingMrHouse
+|Neutral 50
+|''{narrating}''Mr. House's Securitron army took control of Hoover Dam and The Strip, pushing both the Legion and the exhausted NCR out of New Vegas. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingMrHouse_00161FF0_1.ogg}}-->
+|{{linkable|65}}
+
+|-
+|Neutral 50
+|''{narrating}''Mr. House continued to run New Vegas his way, a despotic vision of Pre-War glory. The streets were orderly, efficient, cold. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingMrHouse_00161FF0_2.ogg}}-->
+|{{linkable|66}}
+
+|-
+|Neutral 50
+|''{narrating}''New Vegas continued to be the sole place in the wasteland where fortunes were won and lost in the blink of an eye. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingMrHouse_00161FF0_3.ogg}}-->
+|{{linkable|67}}
+
+|-
+|rowspan="3"|{{linkable|VEndingNCR}}
+|rowspan="3"|VEndingNCR
+|Neutral 50
+|''{narrating}''The New California Republic celebrated its second victory at Hoover Dam, establishing definitive control over the entire Mojave Wasteland. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingNCR_00161FF7_1.ogg}}-->
+|{{linkable|68}}
+
+|-
+|Neutral 50
+|''{narrating}''Soon after, they negotiated terms to annex The Strip, Freeside, and many surrounding communities. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingNCR_00161FF7_2.ogg}}-->
+|{{linkable|69}}
+
+|-
+|Neutral 50
+|''{narrating}''The Mojave wasteland, at long last, had entirely fallen under the NCR's banner. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VEndingNCR_00161FF7_3.ogg}}-->
+|{{linkable|70}}
+
+|-
+|rowspan="16"|{{linkable|VIntroNarration}}
+|VIntroNarration
+|Neutral 50
+|''{paragraph 1}''War. War never changes. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_0016950C_1.ogg}}-->
+|{{linkable|71}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 2}''When atomic fire consumed the earth, those who survived did so in great underground vaults. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_0016950D_1.ogg}}-->
+|{{linkable|72}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 2}''When they opened, their inhabitants set out across the ruins of the Old World to build new societies, establishing villages, forming tribes. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_0016950E_1.ogg}}-->
+|{{linkable|73}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 3}''As decades passed, what ''{slight emphasis}''had been the American southwest united <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_0016950F_1.ogg}}-->
+|{{linkable|74}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 3}''beneath the flag of the New California Republic, dedicated to Old World values of democracy and the rule of law. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169510_1.ogg}}-->
+|{{linkable|75}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 4}''As the Republic grew, so did its needs. Scouts spread east, seeking territory and wealth in the dry and merciless expanse of the Mojave desert. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169511_1.ogg}}-->
+|{{linkable|76}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 4}''They returned with tales of a city untouched by the warheads that had scorched the rest of the world - and a great wall spanning the Colorado River. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169512_1.ogg}}-->
+|{{linkable|77}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 5}''The NCR mobilized its army and sent it east, to occupy Hoover Dam and restore it to working condition. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169513_1.ogg}}-->
+|{{linkable|78}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 5}''But across the Colorado, another society had arisen, under a different flag. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169514_1.ogg}}-->
+|{{linkable|79}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 5}''A vast army of slaves forged from the conquest of 86 tribes - Caesar's Legion. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169515_1.ogg}}-->
+|{{linkable|80}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 6}''Four years have passed since the Republic held the dam - just barely - against the Legion's onslaught. The Legion did not retreat. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169516_1.ogg}}-->
+|{{linkable|81}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 6}''Across the river, it gathers strength. Camp fires burn, training drums beat. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169517_1.ogg}}-->
+|{{linkable|82}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 7}''Through it all, the New Vegas Strip has stayed open for business, under the control of its mysterious overseer, Mr. House, <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169518_1.ogg}}-->
+|{{linkable|83}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 7}''and his army of rehabilitated tribals and police robots. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_00169519_1.ogg}}-->
+|{{linkable|84}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 8}''You are a Courier, hired by the Mojave Express to deliver a package to the New Vegas Strip. <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_0016951A_1.ogg}}-->
+|{{linkable|85}}
+
+|-
+|VIntroNarration
+|Neutral 50
+|''{paragraph 8}''What seemed like a simple delivery job has taken a turn for the worse.  <!--{{Inline quote|sound=MaleUniqueNarrator VEnding_VIntroNarration_0016951B_1.ogg}}-->
+|{{linkable|86}}
+
+|}
+
