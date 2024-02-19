@@ -11,29 +11,24 @@ class Client:
 
     def establish_connection(self):
         while not self.connected:
-            status = self.__socket.connect_to_host()
-            if status == 0:
+            if self.__socket.connect_to_host() == 0:
                 self.connected = True
-            sleep(1)
+            sleep(0.5)
 
     def handle_response(self):
         while self.connected:
             response = self.__socket.recv(recv_size)
-            if response == '':
+            if response == 'quit':
                 self.connected = False
-            else:
-                print('here')
-                print(response.decode())
+                return
+            print(response.decode())
 
     def handle_input(self):
         while self.connected:
             message = input()
-            if message == 'quit':
-                self.connected = False
             self.__socket.send(self.encode_message(message))
 
     def encode_message(self, message):
-        message = message + "|" + self.name
         return message.encode()
 
     def activate(self):
@@ -44,9 +39,10 @@ class Client:
 
         input_handler.start()
         response_handler.start()
-        print('here')
+
         input_handler.join()
         response_handler.join()
+        self.disconnect()
 
     def disconnect(self):
         self.__socket.terminate()
