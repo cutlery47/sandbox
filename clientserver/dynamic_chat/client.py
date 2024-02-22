@@ -1,5 +1,7 @@
-from utils import ClientSocket, recv_size
+from utils import (ClientSocket, recv_size, Message,
+                   MessageSerializer)
 from time import sleep
+from datetime import datetime
 import threading
 
 
@@ -17,19 +19,16 @@ class Client:
 
     def handle_response(self):
         while self.connected:
-            response = self.__socket.recv(recv_size)
-            if response == 'quit':
+            response = MessageSerializer.decode(self.__socket.recv(recv_size))
+            if response.text == 'quit':
                 self.connected = False
-                return
-            print(response.decode())
+            print(response)
 
     def handle_input(self):
         while self.connected:
-            message = input()
-            self.__socket.send(self.encode_message(message))
-
-    def encode_message(self, message):
-        return message.encode()
+            message_text = input()
+            message = Message(message_text, self.name, datetime.now().strftime("%H:%M:%S %d/%m/%Y"))
+            self.__socket.send(MessageSerializer.encode(message))
 
     def activate(self):
         self.establish_connection()

@@ -5,7 +5,7 @@ recv_size = 2048
 
 
 class Message:
-    def __init__(self, text: str = "", sender: str = "", timestamp: str = datetime.now().strftime("%H:%M:%S %d/%m/%Y")):
+    def __init__(self, text: str = '', sender: str = '', timestamp: str = ''):
         try:
             MessageValidator.validate(text, sender)
         except ValueError:
