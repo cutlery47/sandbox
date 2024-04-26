@@ -1,0 +1,44 @@
+services:
+  broker:
+    image: rabbitmq:3.13.1-alpine
+    ports:
+      - 5672:5672
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    networks:
+      - network
+
+  consumer:
+    depends_on:
+      broker:
+        condition: service_healthy
+    build:
+      "consumer/"
+    environment:
+      - RABBITMQ_HOST=broker
+      - RABBITMQ_NAME=queue
+    ports:
+      - 1337:1337
+    networks:
+      - network
+
+  producer:
+    depends_on:
+      broker:
+        condition: service_healthy
+    build:
+      "producer/"
+    environment:
+      - RABBITMQ_HOST=broker
+      - RABBITMQ_NAME=queue
+    ports:
+      - 2228:2228
+    networks:
+      - network
+
+networks:
+  network:
+    name: queue_network
