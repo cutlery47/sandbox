@@ -1,6 +1,4 @@
 {
-  "host_1": "localhost",
-  "host_2": "localhost",
-  "port_1": "1235",
-  "port_2": "1236"
+  "host": "localhost",
+  "port": "1236"
 }
