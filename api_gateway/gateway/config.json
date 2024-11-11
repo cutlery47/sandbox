@@ -1,0 +1,10 @@
+{
+  "self_host": "localhost",
+  "self_port": "2222",
+
+  "service_host_1": "localhost",
+  "service_port_1": "1235",
+
+  "service_host_2": "localhost",
+  "service_port_2": "1236"
+}

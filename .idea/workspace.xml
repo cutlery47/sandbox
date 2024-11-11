@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f5b8ad2-80f9-41bd-a7b0-f0d7da3ce6aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/gateway/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/gateway/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/gateway/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/gateway/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/service_1/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/service_1/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/service_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/service_1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/service_2/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/service_2/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway/service_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway/service_2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncio/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncio/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fYaX21haodplk5yMeU2LEQAxlt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.consumer.executor": "Run",
+    "Python.excercise_6.executor": "Run",
+    "Python.excercise_7.executor": "Run",
+    "Python.functions.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.producer.executor": "Run",
+    "Python.router.executor": "Run",
+    "Python.schema.executor": "Run",
+    "Python.tests.executor": "Run",
+    "Python.tmp.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/cutlery/coding/borrent-parser",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api_gateway/services" />
+      <recent name="$PROJECT_DIR$/api_gateway/gateway" />
+      <recent name="$PROJECT_DIR$/alchemy" />
+      <recent name="$PROJECT_DIR$/asyncio" />
+      <recent name="$PROJECT_DIR$/message_brocker/producer" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f5b8ad2-80f9-41bd-a7b0-f0d7da3ce6aa" name="Changes" comment="" />
+      <created>1713980501118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713980501118</updated>
+      <workItem from="1713980502997" duration="97000" />
+      <workItem from="1713980606042" duration="4443000" />
+      <workItem from="1714051617237" duration="1710000" />
+      <workItem from="1714065420245" duration="4394000" />
+      <workItem from="1714129237163" duration="15652000" />
+      <workItem from="1714158549201" duration="1237000" />
+      <workItem from="1715699439739" duration="759000" />
+      <workItem from="1715856134891" duration="18597000" />
+      <workItem from="1715877330852" duration="2720000" />
+      <workItem from="1715941299174" duration="30000" />
+      <workItem from="1716456076126" duration="6898000" />
+      <workItem from="1716480471872" duration="20000" />
+      <workItem from="1716535699631" duration="696000" />
+      <workItem from="1719382509142" duration="5070000" />
+      <workItem from="1719556615741" duration="3864000" />
+      <workItem from="1719746535181" duration="878000" />
+      <workItem from="1719747546203" duration="1273000" />
+      <workItem from="1719750126421" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sandbox$excercise_7.coverage" NAME="excercise_7 Coverage Results" MODIFIED="1716459401692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvims" />
+    <SUITE FILE_PATH="coverage/sandbox$functions.coverage" NAME="functions Coverage Results" MODIFIED="1715876071555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alchemy" />
+    <SUITE FILE_PATH="coverage/sandbox$utils.coverage" NAME="utils Coverage Results" MODIFIED="1716456561764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvims" />
+    <SUITE FILE_PATH="coverage/sandbox$excercise_6.coverage" NAME="excercise_6 Coverage Results" MODIFIED="1716458234257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tvims" />
+    <SUITE FILE_PATH="coverage/sandbox$producer.coverage" NAME="producer Coverage Results" MODIFIED="1713987025479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message_brocker" />
+    <SUITE FILE_PATH="coverage/sandbox$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1719568597078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tmp" />
+    <SUITE FILE_PATH="coverage/sandbox$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1714131174869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message_brocker/consumer" />
+    <SUITE FILE_PATH="coverage/sandbox$router.coverage" NAME="router Coverage Results" MODIFIED="1719392730786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_gateway/gateway" />
+    <SUITE FILE_PATH="coverage/sandbox$schema.coverage" NAME="schema Coverage Results" MODIFIED="1715876080181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alchemy" />
+    <SUITE FILE_PATH="coverage/sandbox$tests.coverage" NAME="tests Coverage Results" MODIFIED="1715877559100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alchemy" />
+    <SUITE FILE_PATH="coverage/sandbox$main.coverage" NAME="main Coverage Results" MODIFIED="1719387989125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/asyncio" />
+  </component>
+</project>
