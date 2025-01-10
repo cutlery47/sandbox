@@ -1,15 +1,9 @@
 package main
 
 import (
-	"bufio"
 	"errors"
-	"flag"
 	"fmt"
-	"log"
 	"math/rand"
-	"os"
-	"strconv"
-	"strings"
 	"sync"
 )
 
@@ -31,9 +25,6 @@ type Port struct {
 // Мапа для константного по времени поиска портов
 type PortMap struct {
 	// RWMutex для защиты от гонок
-	// Данная программа не предусматривает такого сценария,
-	// однако, если мапа будет использоваться в конкурентном окружении -
-	// без блокировок не обойтись
 	mu *sync.RWMutex
 	// Сама мапа собственно
 	mp map[int]*Port
@@ -79,32 +70,36 @@ var (
 )
 
 // Читает значение IN-порта и возвращает его
-func (pm PortMap) Read(portNum int) (bool, error) {
+func (pm PortMap) Read(portNum int, resChan chan<- string, errChan chan<- error) {
 	// блокируем мапу на чтение
 	pm.mu.RLock()
 	port, ok := pm.mp[portNum]
 	if !ok {
-		return false, ErrNoSuchPort
+		errChan <- ErrNoSuchPort
+		return
 	}
 	pm.mu.RUnlock()
 
 	if port.Type != In {
-		return false, ErrWrongPort
+		errChan <- ErrNoSuchPort
+		return
 	}
 
-	return port.Val, nil
+	resChan <- fmt.Sprintf("read port value: %v", port.Val)
 }
 
 // Пишет новое значение OUT-порта или возвращает ошибку
 // При успешной записи выводится новое значение
-func (pm PortMap) Write(portNum int, val bool) error {
+func (pm PortMap) Write(portNum int, val bool, resChan chan<- string, errChan chan<- error) {
 	port, ok := pm.mp[portNum]
 	if !ok {
-		return ErrNoSuchPort
+		errChan <- ErrNoSuchPort
+		return
 	}
 
 	if port.Type != Out {
-		return ErrWrongPort
+		errChan <- ErrNoSuchPort
+		return
 	}
 
 	// блокируем мапу на запись
@@ -112,8 +107,7 @@ func (pm PortMap) Write(portNum int, val bool) error {
 	port.Val = val
 	pm.mu.Unlock()
 
-	fmt.Println("value written:", val)
-	return nil
+	resChan <- fmt.Sprintf("port %v value written: %v", portNum, toInt(val))
 }
 
 func toBool(v int) (bool, error) {
@@ -135,78 +129,3 @@ func toInt(v bool) int {
 }
 
 const usage = "Usage: [opeartion: read/write] [port number] [value: if writing]"
-
-func main() {
-	numIn := flag.Int("in", 0, "specifies the number of IN-ports")
-	numOut := flag.Int("out", 0, "specifies the number of OUT-ports")
-
-	flag.Parse()
-
-	if *numIn == 0 || *numOut == 0 {
-		log.Fatal("there should be > 1 ports of each type")
-	}
-
-	var exit bool
-	portMap := New(*numIn, *numOut)
-
-	for !exit {
-		reader := bufio.NewReader(os.Stdin)
-		fmt.Print("Enter your operation: ")
-
-		text, _ := reader.ReadString('\n')
-		args := strings.Split(text[:len(text)-1], " ")
-
-		// читаем операцию
-		op := args[0]
-		if op == "read" {
-			if len(args) != 2 {
-				fmt.Println(usage)
-				continue
-			}
-
-			portNum, err := strconv.Atoi(args[1])
-			if err != nil {
-				fmt.Println(err)
-				continue
-			}
-
-			val, err := portMap.Read(portNum)
-			if err != nil {
-				fmt.Println(err)
-				continue
-			}
-
-			fmt.Printf("value %v in port %v\n", toInt(val), portNum)
-		} else if op == "write" {
-			if len(args) != 3 {
-				fmt.Println(usage)
-				continue
-			}
-
-			portNum, err := strconv.Atoi(args[1])
-			if err != nil {
-				fmt.Println(err)
-				continue
-			}
-
-			value, err := strconv.Atoi(args[2])
-			if err != nil {
-				fmt.Println(err)
-				continue
-			}
-
-			boolVal, err := toBool(value)
-			if err != nil {
-				fmt.Println(err)
-				continue
-			}
-
-			if err := portMap.Write(portNum, boolVal); err != nil {
-				fmt.Println(err)
-			}
-		} else {
-			fmt.Println(usage)
-		}
-	}
-
-}
