@@ -26,6 +26,7 @@ func main() {
 	errChan := make(chan error)
 	resChan := make(chan string)
 
+	// запуск обработчика ошибок и результатов
 	go func() {
 		for {
 			select {
@@ -53,6 +54,7 @@ func main() {
 				continue
 			}
 
+			// читаем номер порта
 			portNum, err := strconv.Atoi(args[1])
 			if err != nil {
 				fmt.Println(err)
@@ -66,12 +68,14 @@ func main() {
 				continue
 			}
 
+			// читаем номер порта
 			portNum, err := strconv.Atoi(args[1])
 			if err != nil {
 				fmt.Println(err)
 				continue
 			}
 
+			// читаем значение
 			value, err := strconv.Atoi(args[2])
 			if err != nil {
 				fmt.Println(err)

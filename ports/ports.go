@@ -73,15 +73,16 @@ var (
 func (pm PortMap) Read(portNum int, resChan chan<- string, errChan chan<- error) {
 	// блокируем мапу на чтение
 	pm.mu.RLock()
+	defer pm.mu.RUnlock()
+
 	port, ok := pm.mp[portNum]
 	if !ok {
 		errChan <- ErrNoSuchPort
 		return
 	}
-	pm.mu.RUnlock()
 
 	if port.Type != In {
-		errChan <- ErrNoSuchPort
+		errChan <- ErrWrongPort
 		return
 	}
 
@@ -91,6 +92,10 @@ func (pm PortMap) Read(portNum int, resChan chan<- string, errChan chan<- error)
 // Пишет новое значение OUT-порта или возвращает ошибку
 // При успешной записи выводится новое значение
 func (pm PortMap) Write(portNum int, val bool, resChan chan<- string, errChan chan<- error) {
+	// блокируем мапу на запись
+	pm.mu.Lock()
+	defer pm.mu.Unlock()
+
 	port, ok := pm.mp[portNum]
 	if !ok {
 		errChan <- ErrNoSuchPort
@@ -98,14 +103,11 @@ func (pm PortMap) Write(portNum int, val bool, resChan chan<- string, errChan ch
 	}
 
 	if port.Type != Out {
-		errChan <- ErrNoSuchPort
+		errChan <- ErrWrongPort
 		return
 	}
 
-	// блокируем мапу на запись
-	pm.mu.Lock()
 	port.Val = val
-	pm.mu.Unlock()
 
 	resChan <- fmt.Sprintf("port %v value written: %v", portNum, toInt(val))
 }
