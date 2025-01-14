@@ -25,17 +25,16 @@ func main() {
 	}
 
 	// Считываем входные данные точек начала и конца из stdin
-	startCoord, finishCoord, err := readPath(in)
+	start, finish, err := readPath(in)
 	if err != nil {
 		log.Fatal("err when reading start/finish: ", err)
 	}
 
-	// Создаем объекты-точки из координат
-	start := point{coord: startCoord, weight: maze[startCoord.i][startCoord.j]}
-	finish := point{coord: finishCoord, weight: maze[finishCoord.i][finishCoord.j]}
-
 	// Решение задачи
-	path := solve(maze, start, finish)
+	path, err := solve(maze, start, finish)
+	if err != nil {
+		log.Fatal("err when solving maze: ", err)
+	}
 
 	// Запись результата в stdout
 	for _, el := range path {

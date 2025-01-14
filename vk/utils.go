@@ -30,7 +30,7 @@ func readMaze(in io.Reader) ([][]int, error) {
 
 func readPath(in io.Reader) (coord, coord, error) {
 	var start, finish coord
-	if _, err := fmt.Fscan(in, &start.j, &start.i, &finish.j, &finish.i); err != nil {
+	if _, err := fmt.Fscan(in, &start.i, &start.j, &finish.i, &finish.j); err != nil {
 		return coord{}, coord{}, fmt.Errorf("err when reading start/finish: %v", err)
 	}
 
