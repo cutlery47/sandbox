@@ -8,13 +8,8 @@ import (
 )
 
 func main() {
-	fd, err := os.Open("in")
-	if err != nil {
-		log.Fatal("err when reading file: ", err)
-	}
-
 	// Получаем дескрипторы потоков ввода/вывода
-	in := bufio.NewReader(fd)
+	in := bufio.NewReader(os.Stdin)
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()
 
