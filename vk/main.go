@@ -38,7 +38,7 @@ func main() {
 
 	// Запись результата в stdout
 	for _, el := range path {
-		fmt.Fprintf(out, "%d %d\n", el.j, el.i)
+		fmt.Fprintf(out, "%d %d\n", el.i, el.j)
 	}
 	fmt.Fprintln(out, ".")
 }

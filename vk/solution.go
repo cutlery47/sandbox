@@ -3,12 +3,11 @@ package main
 import (
 	"container/heap"
 	"errors"
-	"fmt"
 	"math"
 )
 
-// Используем -1 для представления бесконечности
-// т.к. golang поддерживает inf только для float64
+// Используем MaxInt для представления бесконечности
+// т.к. го поддерживает inf только для float64
 var inf int = math.MaxInt
 
 // Структура для хранения координат лабиринта
@@ -22,7 +21,7 @@ type xyu struct {
 	cur coord
 	// Длина кратчайшего пути в cur
 	len int
-	// Флаг, является ли точка cur начально
+	// Флаг, является ли точка cur начальной
 	start bool
 }
 
@@ -57,11 +56,20 @@ func (q *xyuQueue) Pop() any {
 	return val
 }
 
+func (q *xyuQueue) Update(upd coord, newLen int) {
+	for i := range *q {
+		if (*q)[i].cur == upd {
+			(*q)[i].len = newLen
+			break
+		}
+	}
+}
+
 // Структура для хранения информации о кратчайшем пути в cur
 type path struct {
 	// Указатель, т.к. мы хотим, чтобы при изменении в мапе изменялось значение
 	// и в min-heap
-	some *xyu
+	len int
 	// Точка, придя из которой получается кратчайший путь в cur
 	prev coord
 }
@@ -91,14 +99,11 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 	unvisited, blocked = markPoints(maze, start)
 	paths = createPathMap(unvisited)
 
-	fmt.Println(paths)
-	fmt.Println("====")
-
 	// Переменная для хранения текущей вершины
 	var node xyu
 	// Переменная для хранения веса текущей вершины
 	var nodeWeight int
-	// Слайс вершин, до которых можно "дотянуться" из node
+	// Слайс вершин, до которых можно дотянуться из node
 	var reachable []coord
 	// Переменная для хранения координат вершин-кандидатов reachable
 	var candidate coord
@@ -106,6 +111,9 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 	var nodePath, curPath path
 
 	for unvisited.Len() != 0 {
+		curPath = paths[node.cur]
+
+		// Достаем вершину с минимальным расстоянием и ее вес
 		node = heap.Pop(unvisited).(xyu)
 		nodeWeight = maze[node.cur.i][node.cur.j]
 
@@ -147,8 +155,6 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 			}
 		}
 
-		fmt.Println("node:", node.cur, "reach:", reachable)
-
 		// Обрабатываем досягаемые вершины
 		for _, el := range reachable {
 			// Получаем из мапы путь до текущей вершины
@@ -157,9 +163,15 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 			nodePath = paths[el]
 
 			// Обновляем путь до досягаемой вершины, если нашли более короткий
-			if curPath.some.len+nodeWeight < nodePath.some.len {
-				nodePath.some.len = curPath.some.len + nodeWeight
-				paths[el] = path{prev: node.cur, some: nodePath.some}
+			if nodePath.len == inf || curPath.len+nodeWeight < nodePath.len {
+				// Обновляем кратчайший путь до достижимой вершины и обновляем ее предшественника
+				nodePath.len = curPath.len + nodeWeight
+				nodePath.prev = node.cur
+
+				// Обновляем запись в мапе путей
+				paths[el] = nodePath
+				// Обновляем запись в очереди вершин
+				unvisited.Update(el, nodePath.len)
 			}
 		}
 
@@ -168,13 +180,14 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 		// Heapify, т.к. значения в очереди могли измениться при обновлении путей
 		heap.Init(unvisited)
 
-		// Cleanup
+		// Подчищаемся
 		reachable = []coord{}
 		candidate = coord{}
 		nodePath, curPath = path{}, path{}
+		node = xyu{}
 	}
 
-	return []coord{}, nil
+	return restorePath(paths, finish), nil
 }
 
 // Создаем:
@@ -199,7 +212,6 @@ func markPoints(maze [][]int, start coord) (*xyuQueue, map[coord]struct{}) {
 					heap.Push(unvisited, xyu{coord{i, j}, inf, false})
 				}
 			}
-
 		}
 	}
 
@@ -211,8 +223,25 @@ func createPathMap(unvisited *xyuQueue) pathMap {
 	paths := pathMap{}
 
 	for i := range *unvisited {
-		paths[(*unvisited)[i].cur] = path{some: &(*unvisited)[i], prev: coord{}}
+		paths[(*unvisited)[i].cur] = path{len: (*unvisited)[i].len, prev: coord{}}
 	}
 
 	return paths
+}
+
+// Восстанавливаем путь по мапе
+func restorePath(paths pathMap, finish coord) []coord {
+	fullPath := []coord{finish}
+
+	// 	Бежим с конца, пока не дойдем до старта
+	for curPath := paths[finish]; curPath.len != 0; curPath = paths[curPath.prev] {
+		fullPath = append(fullPath, curPath.prev)
+	}
+
+	// 	Переворачиваем получившийся путь
+	for i := range len(fullPath) / 2 {
+		fullPath[i], fullPath[len(fullPath)-1-i] = fullPath[len(fullPath)-1-i], fullPath[i]
+	}
+
+	return fullPath
 }
