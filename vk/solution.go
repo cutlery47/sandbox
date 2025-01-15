@@ -8,7 +8,7 @@ import (
 
 // Используем MaxInt для представления бесконечности
 // т.к. го поддерживает inf только для float64
-var inf int = math.MaxInt
+const inf int = math.MaxInt
 
 // Структура для хранения координат лабиринта
 type coord struct {
@@ -16,7 +16,7 @@ type coord struct {
 	j int
 }
 
-type xyu struct {
+type node struct {
 	// Точка, относительно которой смотрим кратчайший путь
 	cur coord
 	// Длина кратчайшего пути в cur
@@ -28,35 +28,35 @@ type xyu struct {
 // Min-queue по длине пути
 // Используется для эффективного нахождения точки,
 // расстояние до которой минимально
-type xyuQueue []xyu
+type nodeQueue []node
 
 // Имллементация heap.Interface
-func (q *xyuQueue) Len() int {
+func (q *nodeQueue) Len() int {
 	return len(*q)
 }
 
-func (q *xyuQueue) Less(i, j int) bool {
+func (q *nodeQueue) Less(i, j int) bool {
 	if (*q)[i].len < (*q)[j].len {
 		return true
 	}
 	return false
 }
 
-func (q *xyuQueue) Swap(i, j int) {
+func (q *nodeQueue) Swap(i, j int) {
 	(*q)[i], (*q)[j] = (*q)[j], (*q)[i]
 }
 
-func (q *xyuQueue) Push(x any) {
-	*q = append(*q, x.(xyu))
+func (q *nodeQueue) Push(x any) {
+	*q = append(*q, x.(node))
 }
 
-func (q *xyuQueue) Pop() any {
+func (q *nodeQueue) Pop() any {
 	val := (*q)[q.Len()-1]
 	(*q) = (*q)[:q.Len()-1]
 	return val
 }
 
-func (q *xyuQueue) Update(upd coord, newLen int) {
+func (q *nodeQueue) Update(upd coord, newLen int) {
 	for i := range *q {
 		if (*q)[i].cur == upd {
 			(*q)[i].len = newLen
@@ -82,8 +82,12 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 		return []coord{}, nil
 	}
 
+	if start == finish {
+		return []coord{start}, nil
+	}
+
 	if maze[start.i][start.j] == 0 || maze[finish.i][finish.j] == 0 {
-		return nil, errors.New("maze unsolvable")
+		return nil, errUnsolvable
 	}
 
 	// Хэш-сет для хранения посещенных вершин
@@ -91,7 +95,7 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 	// Хэш-сет для хранения недоступных вершин
 	var blocked map[coord]struct{}
 	// Min-queue для хранения непомещенных вершин
-	var unvisited *xyuQueue
+	var unvisited *nodeQueue
 	// Мапа для хранения путей
 	var paths pathMap
 
@@ -100,7 +104,7 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 	paths = createPathMap(unvisited)
 
 	// Переменная для хранения текущей вершины
-	var node xyu
+	var nodeVar node
 	// Переменная для хранения веса текущей вершины
 	var nodeWeight int
 	// Слайс вершин, до которых можно дотянуться из node
@@ -109,18 +113,25 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 	var candidate coord
 	// Переменные для хранения значений pathMap
 	var nodePath, curPath path
+	// Флаг обозн. найден ли путь в finish
+	var finished bool
 
 	for unvisited.Len() != 0 {
-		curPath = paths[node.cur]
+		curPath = paths[nodeVar.cur]
 
 		// Достаем вершину с минимальным расстоянием и ее вес
-		node = heap.Pop(unvisited).(xyu)
-		nodeWeight = maze[node.cur.i][node.cur.j]
+		nodeVar = heap.Pop(unvisited).(node)
+		if !finished && nodeVar.len == inf {
+			// Если расстояние до вершины с минимальным расстоянием бесконечно - лабиринт нерешаем
+			return nil, errUnsolvable
+		}
+		nodeWeight = maze[nodeVar.cur.i][nodeVar.cur.j]
 
 		// Добавляем вершину в reachable только если она досягаема, не заблокирована и не посещена
 
-		if node.cur.i != 0 {
-			candidate = coord{node.cur.i - 1, node.cur.j}
+		// Добавляем сверху
+		if nodeVar.cur.i != 0 {
+			candidate = coord{nodeVar.cur.i - 1, nodeVar.cur.j}
 			if _, ok := blocked[candidate]; !ok {
 				if _, ok := visited[candidate]; !ok {
 					reachable = append(reachable, candidate)
@@ -128,8 +139,9 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 			}
 		}
 
-		if node.cur.i != len(maze)-1 {
-			candidate = coord{node.cur.i + 1, node.cur.j}
+		// Добавляем снизу
+		if nodeVar.cur.i != len(maze)-1 {
+			candidate = coord{nodeVar.cur.i + 1, nodeVar.cur.j}
 			if _, ok := blocked[candidate]; !ok {
 				if _, ok := visited[candidate]; !ok {
 					reachable = append(reachable, candidate)
@@ -137,8 +149,9 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 			}
 		}
 
-		if node.cur.j != 0 {
-			candidate = coord{node.cur.i, node.cur.j - 1}
+		// Добавляем слева
+		if nodeVar.cur.j != 0 {
+			candidate = coord{nodeVar.cur.i, nodeVar.cur.j - 1}
 			if _, ok := blocked[candidate]; !ok {
 				if _, ok := visited[candidate]; !ok {
 					reachable = append(reachable, candidate)
@@ -146,8 +159,9 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 			}
 		}
 
-		if node.cur.j != len(maze[node.cur.i])-1 {
-			candidate = coord{node.cur.i, node.cur.j + 1}
+		// Добавляем справа
+		if nodeVar.cur.j != len(maze[nodeVar.cur.i])-1 {
+			candidate = coord{nodeVar.cur.i, nodeVar.cur.j + 1}
 			if _, ok := blocked[candidate]; !ok {
 				if _, ok := visited[candidate]; !ok {
 					reachable = append(reachable, candidate)
@@ -157,16 +171,19 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 
 		// Обрабатываем досягаемые вершины
 		for _, el := range reachable {
-			// Получаем из мапы путь до текущей вершины
-			curPath = paths[node.cur]
 			// Получаем из мапы путь до досягаемой вершины
 			nodePath = paths[el]
 
 			// Обновляем путь до досягаемой вершины, если нашли более короткий
 			if nodePath.len == inf || curPath.len+nodeWeight < nodePath.len {
+				// Ставим флаг, если нашли путь в конечную вершину
+				if el == finish {
+					finished = true
+				}
+
 				// Обновляем кратчайший путь до достижимой вершины и обновляем ее предшественника
 				nodePath.len = curPath.len + nodeWeight
-				nodePath.prev = node.cur
+				nodePath.prev = nodeVar.cur
 
 				// Обновляем запись в мапе путей
 				paths[el] = nodePath
@@ -176,7 +193,7 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 		}
 
 		// Помечаем текущую вершину посещенной
-		visited[node.cur] = struct{}{}
+		visited[nodeVar.cur] = struct{}{}
 		// Heapify, т.к. значения в очереди могли измениться при обновлении путей
 		heap.Init(unvisited)
 
@@ -184,32 +201,32 @@ func solve(maze [][]int, start, finish coord) ([]coord, error) {
 		reachable = []coord{}
 		candidate = coord{}
 		nodePath, curPath = path{}, path{}
-		node = xyu{}
+		nodeVar = node{}
 	}
 
 	return restorePath(paths, finish), nil
 }
 
 // Создаем:
-// 1) Слайс для хранения непосещенных вершин
-// 2) Мапу для хранения заблокированных вершин
-func markPoints(maze [][]int, start coord) (*xyuQueue, map[coord]struct{}) {
+// 1) Очередь для хранения непосещенных вершин
+// 2) Хэш-сет для хранения заблокированных вершин
+func markPoints(maze [][]int, start coord) (*nodeQueue, map[coord]struct{}) {
 	blocked := map[coord]struct{}{}
-	unvisited := &xyuQueue{}
+	unvisited := &nodeQueue{}
 	heap.Init(unvisited)
 
 	for i := range len(maze) {
 		for j := range len(maze[i]) {
 			if i == start.i && j == start.j {
 				// Помечаем начальную вершину
-				heap.Push(unvisited, xyu{coord{i, j}, 0, true})
+				heap.Push(unvisited, node{coord{i, j}, 0, true})
 			} else {
 				if maze[i][j] == 0 {
 					// Помеаем заблокированную вершину
 					blocked[coord{i, j}] = struct{}{}
 				} else {
 					// Помечаем непосещенную вершину
-					heap.Push(unvisited, xyu{coord{i, j}, inf, false})
+					heap.Push(unvisited, node{coord{i, j}, inf, false})
 				}
 			}
 		}
@@ -219,7 +236,7 @@ func markPoints(maze [][]int, start coord) (*xyuQueue, map[coord]struct{}) {
 }
 
 // Создаем таблицу для отслеживания кратчайших путей
-func createPathMap(unvisited *xyuQueue) pathMap {
+func createPathMap(unvisited *nodeQueue) pathMap {
 	paths := pathMap{}
 
 	for i := range *unvisited {
@@ -245,3 +262,5 @@ func restorePath(paths pathMap, finish coord) []coord {
 
 	return fullPath
 }
+
+var errUnsolvable = errors.New("maze unsolvable")
