@@ -3,32 +3,15 @@ package main
 import (
 	"bufio"
 	"container/heap"
-	"flag"
 	"fmt"
-	"log"
 	"os"
-	"runtime/pprof"
 	"sort"
 	"strconv"
 	"strings"
 )
 
-var cpuprofile = flag.String("cpuprofile", "", "write cpu profile to file")
-
 func main() {
-	flag.Parse()
-	if *cpuprofile != "" {
-		f, err := os.Create(*cpuprofile)
-		if err != nil {
-			log.Fatal(err)
-		}
-		pprof.StartCPUProfile(f)
-		defer pprof.StopCPUProfile()
-	}
-
-	fd, _ := os.Open("15")
-
-	in := bufio.NewReader(fd)
+	in := bufio.NewReader(os.Stdin)
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()
 
